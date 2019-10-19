@@ -1,9 +1,9 @@
 ---
-layout: default
-grand_parent: Build a Web Crawler
+grand_parent: "Build a Web Crawler"
 parent: "Variant: Phone Screen"
-title: Rubric
+title: "Rubric"
 nav_order: 2
+layout: default
 ---
 
 
