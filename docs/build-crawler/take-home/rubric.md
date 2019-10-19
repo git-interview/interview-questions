@@ -1,9 +1,8 @@
 ---
 layout: default
+parent: Take Home
 title: Rubric
-parent: Phone Screen
 nav_order: 2
 ---
 
-
-phone screen rubric
+take home rubric

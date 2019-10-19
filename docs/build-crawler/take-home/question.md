@@ -1,8 +1,8 @@
 ---
 layout: default
+parent: Take Home
 title: Question
-parent: Phone Screen
 nav_order: 1
 ---
 
-phone screen problem statement
+take home question
