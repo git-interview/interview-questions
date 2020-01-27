@@ -15,9 +15,80 @@ Hiring managers can use it to create awesome interview plans.
 [See sample question](/build-a-web-crawler){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } 
 [Notify me when it launches](https://some-form){: .btn .fs-5 .mb-4 .mb-md-0 }
 
+
 ---
 
+
 ## Question library
+
+
+### Backend
+
+* Build a web crawler
+* Build a webhook notification system
+* Build a rate limiter for web requests
+* Build a cache server for web requests
+
+
+### Frontend
+
+* Create a browser of animated GIFs using the Giphy API
+* Create a shopping cart summary for an e-commerce site
+* Create a component for smart search with autocomplete 
+* Create a component for live notifications
+
+
+### QA
+
+* Test a filesystem utility for removing dead symlinks
+* 
+*
+*
+
+
+### DevOps
+
+*
+*
+*
+*
+
+
+### Data
+
+*
+*
+*
+*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <ul class="list-style-none">
     <li class="d-inline-block mr-1">
@@ -62,7 +133,7 @@ Hiring managers can use it to create awesome interview plans.
 ---
 
 
-## Pricing
+## Price
 
 Each question will cost $25.
 

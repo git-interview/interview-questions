@@ -1,14 +1,14 @@
 ---
-title: "Build a Web Crawler"
-nav_order: 2
+title: "DevOps"
+nav_order: 5
 layout: default
-has_children: true
+has_children: false
 description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
-permalink: "/build-a-web-crawler"
+permalink: "/devops-questions"
 ---
 
 
-# Build a web crawler
+# DevOps Questions
 
 
 
