@@ -1,8 +1,10 @@
 ---
+grand_parent: "Backend"
 parent: "Build a Web Crawler"
 title: "Take Home"
 nav_order: 2
 layout: default
+permalink: "/backend-questions/build-a-web-crawler/take-home"
 ---
 
 
