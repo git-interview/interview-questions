@@ -1,35 +1,31 @@
 ---
-title: "DevOps"
+title: "Ops"
 nav_order: 5
 layout: default
 has_children: false
 has_toc: false
 description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
-permalink: "/devops-questions"
+permalink: "/ops-questions"
 ---
 
 
-# DevOps Questions
+# Ops Questions
 
 <ul class="list-style-none">
     <li class="d-inline-block v-align-top mr-4" style="width: 150px;">
-        <img src="/devops/q1/cover.png" />
-        <p>Build a web crawler</p>
+        <img src="/ops/q1/cover.png" />
+        <p>Write a script to deploy with zero downtime</p>
     </li>
     <li class="d-inline-block v-align-top mr-4" style="width: 150px;">
-        <img src="/devops/q2/cover.png" />
-        <p>Build a webhook notification system</p>
+        <img src="/ops/q2/cover.png" />
+        <p>Design a deployment workflow</p>
     </li>
     <li class="d-inline-block v-align-top mr-4" style="width: 150px;">
-        <img src="/devops/q3/cover.png" />
-        <p>Build a rate limiter for web requests</p>
+        <img src="/ops/q3/cover.png" />
+        <p>Troubleshoot a faulty app server</p>
     </li>
     <li class="d-inline-block v-align-top mr-4" style="width: 150px;">
-        <img src="/devops/q4/cover.png" />
-        <p>Build a cache server for web requests: longer line</p>
+        <img src="/ops/q4/cover.png" />
+        <p>Optimize the config of an Nginx server</p>
     </li>
 </ul>
-
-
-
-

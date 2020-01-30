@@ -9,24 +9,24 @@ permalink: "/data-questions"
 ---
 
 
-# Data Questions
+# Data questions
 
 <ul class="list-style-none">
     <li class="d-inline-block v-align-top mr-4" style="width: 150px;">
         <img src="/data/q1/cover.png" />
-        <p>Build a web crawler</p>
+        <p>Implement a shopping recommendation feature</p>
     </li>
     <li class="d-inline-block v-align-top mr-4" style="width: 150px;">
         <img src="/data/q2/cover.png" />
-        <p>Build a webhook notification system</p>
+        <p>Design a data ingestion pipeline</p>
     </li>
     <li class="d-inline-block v-align-top mr-4" style="width: 150px;">
         <img src="/data/q3/cover.png" />
-        <p>Build a rate limiter for web requests</p>
+        <p>Deduplicate data in a Hadoop cluster</p>
     </li>
     <li class="d-inline-block v-align-top mr-4" style="width: 150px;">
         <img src="/data/q4/cover.png" />
-        <p>Build a cache server for web requests: longer line</p>
+        <p>Predict likelihood of a product purchase</p>
     </li>
 </ul>
 

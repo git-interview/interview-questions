@@ -9,7 +9,7 @@ permalink: "/backend-questions"
 ---
 
 
-# Backend Questions
+# Backend questions
 
 <ul class="list-style-none">
     <li class="d-inline-block v-align-top mr-4" style="width: 150px;">
@@ -20,18 +20,14 @@ permalink: "/backend-questions"
     </li>
     <li class="d-inline-block v-align-top mr-4" style="width: 150px;">
         <img src="/backend/q2/cover.png" />
-        <p>Build a webhook notification system</p>
+        <p>Debug a faulty cache server</p>
     </li>
     <li class="d-inline-block v-align-top mr-4" style="width: 150px;">
         <img src="/backend/q3/cover.png" />
-        <p>Build a rate limiter for web requests</p>
+        <p>Refactor a slow database query</p>
     </li>
     <li class="d-inline-block v-align-top mr-4" style="width: 150px;">
         <img src="/backend/q4/cover.png" />
-        <p>Build a cache server for web requests: longer line</p>
+        <p>Design a REST endpoint for search</p>
     </li>
 </ul>
-
-
-
-
