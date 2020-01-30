@@ -12,48 +12,23 @@ permalink: "/backend-questions"
 # Backend Questions
 
 <ul class="list-style-none">
-    <li class="d-inline-block mr-1">
+    <li class="d-inline-block v-align-top mr-4" style="width: 160px;">
         <a href="/backend-questions/build-a-web-crawler">
-            <img src="/backend/build-crawler/cover.png" width="150" height="150" />
+            <img src="/backend/build-crawler/cover.png" />
             <p>Build a web crawler</p>
         </a>
     </li>
-    <li class="d-inline-block mr-1">
-        <img src="/backend/build-crawler/cover.png" width="150" height="150" />
+    <li class="d-inline-block v-align-top mr-4" style="width: 160px;">
+        <img src="/backend/q2/cover.png" />
         <p>Build a webhook notification system</p>
     </li>
-    <li class="d-inline-block mr-1">
-        <img src="/backend/build-crawler/cover.png" width="150" height="150" />
+    <li class="d-inline-block v-align-top mr-4" style="width: 160px;">
+        <img src="/backend/q3/cover.png" />
         <p>Build a rate limiter for web requests</p>
     </li>
-    <li class="d-inline-block mr-1">
-        <img src="/backend/build-crawler/cover.png" width="150" height="150" />
-        <p>Build a cache server for web requests</p>
-    </li>
-</ul>
-
-
----
-
-
-<ul class="list-style-none">
-    <li class="d-inline-block mr-1">
-        <a href="/backend-questions/build-a-web-crawler">
-            <img src="/backend/build-crawler/cover.png" width="150" height="150" />
-            <p>Build a web crawler</p>
-        </a>
-    </li>
-    <li class="d-inline-block mr-1">
-        <img src="/backend/build-crawler/cover.png" width="150" height="150" />
-        <p>Build a webhook notification system</p>
-    </li>
-    <li class="d-inline-block mr-1">
-        <img src="/backend/build-crawler/cover.png" width="150" height="150" />
-        <p>Build a rate limiter for web requests</p>
-    </li>
-    <li class="d-inline-block mr-1">
-        <img src="/backend/build-crawler/cover.png" width="150" height="150" />
-        <p>Build a cache server for web requests</p>
+    <li class="d-inline-block v-align-top mr-4" style="width: 160px;">
+        <img src="/backend/q4/cover.png" />
+        <p>Build a cache server for web requests: longer line</p>
     </li>
 </ul>
 
