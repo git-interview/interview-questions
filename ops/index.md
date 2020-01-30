@@ -9,7 +9,7 @@ permalink: "/ops-questions"
 ---
 
 
-# Ops Questions
+# Ops questions
 
 <ul class="list-style-none">
     <li class="d-inline-block v-align-top mr-4" style="width: 150px;">

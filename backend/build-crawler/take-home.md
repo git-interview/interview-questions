@@ -1,7 +1,7 @@
 ---
 grand_parent: "Backend"
-parent: "Build a Web Crawler"
-title: "Take Home"
+parent: "Build a web crawler"
+title: "Take-home"
 nav_order: 2
 layout: default
 permalink: "/backend-questions/build-a-web-crawler/take-home"

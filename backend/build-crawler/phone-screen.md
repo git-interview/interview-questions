@@ -1,14 +1,14 @@
 ---
 grand_parent: "Backend"
-parent: "Build a Web Crawler"
-title: "Phone Screen"
+parent: "Build a web crawler"
+title: "Phone screen"
 nav_order: 1
 layout: default
 permalink: "/backend-questions/build-a-web-crawler/phone-screen"
 ---
 
 
-# Phone Screen
+# Phone screen
 {: .no_toc }
 
 <dl>
