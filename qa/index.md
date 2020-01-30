@@ -12,19 +12,19 @@ permalink: "/qa-questions"
 # QA Questions
 
 <ul class="list-style-none">
-    <li class="d-inline-block v-align-top mr-4" style="width: 160px;">
+    <li class="d-inline-block v-align-top mr-4" style="width: 150px;">
         <img src="/qa/q1/cover.png" />
         <p>Build a web crawler</p>
     </li>
-    <li class="d-inline-block v-align-top mr-4" style="width: 160px;">
+    <li class="d-inline-block v-align-top mr-4" style="width: 150px;">
         <img src="/qa/q2/cover.png" />
         <p>Build a webhook notification system</p>
     </li>
-    <li class="d-inline-block v-align-top mr-4" style="width: 160px;">
+    <li class="d-inline-block v-align-top mr-4" style="width: 150px;">
         <img src="/qa/q3/cover.png" />
         <p>Build a rate limiter for web requests</p>
     </li>
-    <li class="d-inline-block v-align-top mr-4" style="width: 160px;">
+    <li class="d-inline-block v-align-top mr-4" style="width: 150px;">
         <img src="/qa/q4/cover.png" />
         <p>Build a cache server for web requests: longer line</p>
     </li>

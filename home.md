@@ -22,21 +22,21 @@ Hiring managers can use it to create awesome interview plans.
 ## Backend questions
 
 <ul class="list-style-none">
-    <li class="d-inline-block v-align-top mr-4" style="width: 160px;">
+    <li class="d-inline-block v-align-top mr-4" style="width: 150px;">
         <a href="/backend-questions/build-a-web-crawler">
             <img src="/backend/build-crawler/cover.png" />
             <p>Build a web crawler</p>
         </a>
     </li>
-    <li class="d-inline-block v-align-top mr-4" style="width: 160px;">
+    <li class="d-inline-block v-align-top mr-4" style="width: 150px;">
         <img src="/backend/q2/cover.png" />
         <p>Build a webhook notification system</p>
     </li>
-    <li class="d-inline-block v-align-top mr-4" style="width: 160px;">
+    <li class="d-inline-block v-align-top mr-4" style="width: 150px;">
         <img src="/backend/q3/cover.png" />
         <p>Build a rate limiter for web requests</p>
     </li>
-    <li class="d-inline-block v-align-top mr-4" style="width: 160px;">
+    <li class="d-inline-block v-align-top mr-4" style="width: 150px;">
         <img src="/backend/q4/cover.png" />
         <p>Build a cache server for web requests: longer line</p>
     </li>
@@ -46,19 +46,19 @@ Hiring managers can use it to create awesome interview plans.
 ## Frontend questions
 
 <ul class="list-style-none">
-    <li class="d-inline-block v-align-top mr-4" style="width: 160px;">
+    <li class="d-inline-block v-align-top mr-4" style="width: 150px;">
         <img src="/frontend/q1/cover.png" />
         <p>Create a browser of animated GIFs using the Giphy API</p>
     </li>
-    <li class="d-inline-block v-align-top mr-4" style="width: 160px;">
+    <li class="d-inline-block v-align-top mr-4" style="width: 150px;">
         <img src="/frontend/q2/cover.png" />
         <p>Create a shopping cart summary for an e-commerce site</p>
     </li>
-    <li class="d-inline-block v-align-top mr-4" style="width: 160px;">
+    <li class="d-inline-block v-align-top mr-4" style="width: 150px;">
         <img src="/frontend/q3/cover.png" />
         <p>Create a component for smart search with autocomplete </p>
     </li>
-    <li class="d-inline-block v-align-top mr-4" style="width: 160px;">
+    <li class="d-inline-block v-align-top mr-4" style="width: 150px;">
         <img src="/frontend/q4/cover.png" />
         <p>Create a component for live notifications</p>
     </li>
@@ -68,19 +68,19 @@ Hiring managers can use it to create awesome interview plans.
 ## QA questions
 
 <ul class="list-style-none">
-    <li class="d-inline-block v-align-top mr-4" style="width: 160px;">
+    <li class="d-inline-block v-align-top mr-4" style="width: 150px;">
         <img src="/qa/q1/cover.png" />
         <p>Test a filesystem utility for removing dead symlinks</p>
     </li>
-    <li class="d-inline-block v-align-top mr-4" style="width: 160px;">
+    <li class="d-inline-block v-align-top mr-4" style="width: 150px;">
         <img src="/qa/q2/cover.png" />
         <p>Write functional tests for a linux utility</p>
     </li>
-    <li class="d-inline-block v-align-top mr-4" style="width: 160px;">
+    <li class="d-inline-block v-align-top mr-4" style="width: 150px;">
         <img src="/qa/q3/cover.png" />
         <p>Automate tests for a web signup form</p>
     </li>
-    <li class="d-inline-block v-align-top mr-4" style="width: 160px;">
+    <li class="d-inline-block v-align-top mr-4" style="width: 150px;">
         <img src="/qa/q4/cover.png" />
         <p>Find bugs in a faulty API endpoint</p>
     </li>
@@ -90,19 +90,19 @@ Hiring managers can use it to create awesome interview plans.
 ## DevOps questions
 
 <ul class="list-style-none">
-    <li class="d-inline-block v-align-top mr-4" style="width: 160px;">
+    <li class="d-inline-block v-align-top mr-4" style="width: 150px;">
         <img src="/devops/q1/cover.png" />
         <p>Troubleshoot a faulty app server</p>
     </li>
-    <li class="d-inline-block v-align-top mr-4" style="width: 160px;">
+    <li class="d-inline-block v-align-top mr-4" style="width: 150px;">
         <img src="/devops/q2/cover.png" />
         <p>Optimize the config of an Nginx server</p>
     </li>
-    <li class="d-inline-block v-align-top mr-4" style="width: 160px;">
+    <li class="d-inline-block v-align-top mr-4" style="width: 150px;">
         <img src="/devops/q3/cover.png" />
         <p>Write a script to deploy with zero downtime </p>
     </li>
-    <li class="d-inline-block v-align-top mr-4" style="width: 160px;">
+    <li class="d-inline-block v-align-top mr-4" style="width: 150px;">
         <img src="/devops/q4/cover.png" />
         <p>Find bugs in a faulty API endpoint</p>
     </li>
@@ -112,19 +112,19 @@ Hiring managers can use it to create awesome interview plans.
 ## Data questions
 
 <ul class="list-style-none">
-    <li class="d-inline-block v-align-top mr-4" style="width: 160px;">
+    <li class="d-inline-block v-align-top mr-4" style="width: 150px;">
         <img src="/data/q1/cover.png" />
         <p>Predict likelihood of a purchase</p>
     </li>
-    <li class="d-inline-block v-align-top mr-4" style="width: 160px;">
+    <li class="d-inline-block v-align-top mr-4" style="width: 150px;">
         <img src="/data/q2/cover.png" />
         <p>Deduplicate data in a Hadoop cluster</p>
     </li>
-    <li class="d-inline-block v-align-top mr-4" style="width: 160px;">
+    <li class="d-inline-block v-align-top mr-4" style="width: 150px;">
         <img src="/data/q3/cover.png" />
         <p>Implement a shopping recommendation feature</p>
     </li>
-    <li class="d-inline-block v-align-top mr-4" style="width: 160px;">
+    <li class="d-inline-block v-align-top mr-4" style="width: 150px;">
         <img src="/data/q4/cover.png" />
         <p>Find bugs in a faulty API endpoint</p>
     </li>
