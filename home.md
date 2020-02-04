@@ -156,3 +156,5 @@ Each question will cost $25.
 
 [Give feedback](https://feedback-form){: .btn .fs-5 .mb-4 .mb-md-0 }
 
+© 2020 Interview Pro
+{: .fs-1 .fw-300 .text-grey-dk-000}
