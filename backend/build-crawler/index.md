@@ -10,16 +10,15 @@ permalink: "/backend-questions/build-a-web-crawler"
 ---
 
 
-<img src="/backend/build-crawler/cover.png" width="200" />
-{: .d-inline-block}
-
-# Build a web crawler
-{:  .fs-8 }
-
-Design and implement a simple web crawler, design and implement simple web crawler.
-{: .fs-6 .fw-300 }
-
-{: .d-inline-block}
+<div class="d-md-flex">
+    <div class="col mr-6 mb-4" style="width: 70%">
+        <img src="/backend/build-crawler/cover.png" />
+    </div>
+    <div class="col">
+        <h1>Build a web crawler</h1>
+        <p class="fs-6 fw-300">Design and implement a simple web crawler, design and implement simple web crawler.</p>
+    </div>
+</div>
 
 
 This question is available in **3 formats**:
