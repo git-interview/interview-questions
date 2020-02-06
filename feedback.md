@@ -7,5 +7,13 @@ permalink: "/give-feedback"
 ---
 
 
-[Give feedback](https://feedback-form){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 }
+<iframe 
+    src="https://docs.google.com/forms/d/e/1FAIpQLScJr7XPdnH1YXqtfRBV_V1t0uqe8m8yB-g1qLK20RP--1mTKQ/viewform?embedded=true"
+    style="width:100%;"
+    height="600"
+    frameborder="0" 
+    marginheight="0" 
+    marginwidth="0">
+    Loading…
+</iframe>
 

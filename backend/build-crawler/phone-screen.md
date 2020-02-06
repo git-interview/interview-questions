@@ -156,8 +156,8 @@ here
 --- 
 
 
-[Notify me when Interview Pro launches](https://notify-form){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 }
-[Give feedback](https://feedback-form){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Notify me when Interview Pro launches](https://docs.google.com/forms/d/e/1FAIpQLSdNZ-Nc72tSjKi80GGt0oesg7Ibw5D4ACKcY58-5u7zp2uNgA/viewform){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 }
+[Give feedback](/give-feedback){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 
 © 2020 Interview Pro
