@@ -69,34 +69,58 @@ https://en.wikipedia.org/wiki/Ion   12
 During onsite
 {: .label .label-green }
 
-1. Describe the sequence of operations the crawler needs to perform, to produce the desired output.
 
-2. Write a possible block diagram for the webcrawler.
+<script type="text/javascript" src="{{ "/assets/js/toggle-answer.js" | absolute_url }}"></script>
+<span class="toggle-all-answers">Show all answers ▷</span>
 
-3. How can the crawler enforce that the maximum number of distinct pages to visit is, say, `1000`?
 
-4. What data structure should the crawler use to represent how pages link to each other?
-    1. Where can the crawler store this data structure?
-    2. What are the tradeoffs between storing this data structure *in memory* vs. *in disk*?
-    3. How would you store this data struture in a *relational database*, such as MySQL?
-    4. How would you store this data struture in a *key-value database*, such as Redis?
+1. <div class="question">Describe the sequence of operations the crawler needs to perform, to produce the desired output. 
+    <div class="answer">
+    Answer: This is the answer to the question this is the answer to the question this is the qnswer this is the answer this this is the answer this this.
+        <img src="/backend/build-crawler/cover.png" width="100" />
+        <br />
+    Now, is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this.</div></div>
 
-5. What metric can we use to benchmark the *speed* of different crawlers?
-    1. What factors (internal or external) influence this metric?
-    2. What design changes could we make to improve the performance of the crawler we previously designed?
+2. <span class="question">Write a possible block diagram for the webcrawler. <span class="answer">This is the answer to the question this is the answer to the question this is the qnswer this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this.</span> </span>
 
-6. Is the crawler we previously designed capable of fetching multiple webpages in parallel?
-    1. How would you extend the design to allow parallel fetching?
-    2. How would you implement parallel fetching using *multiple processes*?
-    3. How would you implement parallel fetching using a *single process*?
-    4. How would you implement parallel fetching using a *single thread*?
+3. <span class="question">How can the crawler enforce that the maximum number of distinct pages to visit is, say, `1000`? <span class="answer">This is the answer to the question this is the answer to the question this is the qnswer this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this.</span> </span>
 
-7. What types of errors can the crawler encounter while navigating webpages?
-    1. How can we handle 4xx errors?
-    2. How can we handle 5xx errors?
-    3. How can we handle DNS errors?
+4. <span class="question">What data structure should the crawler use to represent how pages link to each other? <span class="answer">This is the answer to the question this is the answer to the question this is the qnswer this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this.</span> </span>
+    1. <span class="question">Where can the crawler store this data structure? <span class="answer">This is the answer to the question this is the answer to the question this is the qnswer this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this.</span> </span>
+    2. <span class="question">What are the tradeoffs between storing this data structure *in memory* vs. <span class="question">*in disk*? <span class="answer">This is the answer to the question this is the answer to the question this is the qnswer this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this.</span> </span>
+    3. <span class="question">How would you store this data struture in a *relational database*, such as MySQL? <span class="answer">This is the answer to the question this is the answer to the question this is the qnswer this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this.</span> </span>
+    4. <span class="question">How would you store this data struture in a *key-value database*, such as Redis? <span class="answer">This is the answer to the question this is the answer to the question this is the qnswer this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this.</span> </span>
 
-8. How would the crawler handle query parameters in a URL?
+5. <span class="question">What metric can we use to benchmark the *speed* of different crawlers? <span class="answer">This is the answer to the question this is the answer to the question this is the qnswer this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this.</span> </span>
+    1. <span class="question">What factors (internal or external) influence this metric? <span class="answer">This is the answer to the question this is the answer to the question this is the qnswer this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this.</span> </span>
+    2. <span class="question">What design changes could we make to improve the performance of the crawler we previously designed? <span class="answer">This is the answer to the question this is the answer to the question this is the qnswer this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this.</span> </span>
+
+6. <span class="question">Is the crawler we previously designed capable of fetching multiple webpages in parallel? <span class="answer">This is the answer to the question this is the answer to the question this is the qnswer this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this.</span> </span>
+    1. <span class="question">How would you extend the design to allow parallel fetching? <span class="answer">This is the answer to the question this is the answer to the question this is the qnswer this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this.</span> </span>
+    2. <span class="question">How would you implement parallel fetching using *multiple processes*? <span class="answer">This is the answer to the question this is the answer to the question this is the qnswer this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this.</span> </span>
+    3. <span class="question">How would you implement parallel fetching using a *single process*? <span class="answer">This is the answer to the question this is the answer to the question this is the qnswer this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this.</span> </span>
+    4. <span class="question">How would you implement parallel fetching using a *single thread*? <span class="answer">This is the answer to the question this is the answer to the question this is the qnswer this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this.</span> </span>
+
+7. <span class="question">What types of errors can the crawler encounter while navigating webpages? <span class="answer">This is the answer to the question this is the answer to the question this is the qnswer this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this.</span> </span>
+    1. <span class="question">How can we handle 4xx errors? <span class="answer">This is the answer to the question this is the answer to the question this is the qnswer this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this.</span> </span>
+    2. <span class="question">How can we handle 5xx errors? <span class="answer">This is the answer to the question this is the answer to the question this is the qnswer this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this.</span> </span>
+    3. <span class="question">How can we handle DNS errors? <span class="answer">This is the answer to the question this is the answer to the question this is the qnswer this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this.</span> </span>
+
+8. <span class="question">How would the crawler handle query parameters in a URL? <span class="answer">This is the answer to the question this is the answer to the question this is the qnswer this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this.</span> </span>
+
+
+
+
+
+
+1. <span class="question">Question 1
+    <span class="answer">Answer 1</span>
+</span>
+
+
+2. <span class="question">Question 2
+    <span class="answer">Answer 2</span>
+</span>
 
 
 ---
