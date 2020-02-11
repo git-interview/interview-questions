@@ -64,9 +64,18 @@ https://en.wikipedia.org/wiki/Ion   12
 ### Tasks
 {: .no_toc }
 
-1. Implement the webcrawler described above. Use the programming language and tools of your choice. 
-2. Document any important design decisions and assumptions you made along the way, and their associated tradeoffs.
+<script type="text/javascript" src="{{ "/assets/js/toggle-answer.js" | absolute_url }}"></script>
+<a class="toggle-all-answers-button">Show all answers ▽</a>
 
+1. <div class="question">Implement the webcrawler described above. Use the programming language and tools of your choice. 
+    <span class="toggle-answer-icon">▽</span>
+    <div class="answer">Answer: This is the answer this is the answer this is the answer.</div>
+    </div>
+
+2. <div class="question">Document any important design decisions and assumptions you made along the way, and their associated tradeoffs.
+    <span class="toggle-answer-icon">▽</span>
+    <div class="answer">Answer: This is the answer this is the answer this is the answer.</div>
+    </div>
 
 
 ### Duration
@@ -92,12 +101,6 @@ Your submission will be evaluated by an engineer according to the following crit
 {: .d-inline-block } 
 For reviewer
 {: .label .label-yellow }
-
-
-### Example solution
-{: .no_toc }
-
-here
 
 
 --- 

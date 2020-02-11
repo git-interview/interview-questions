@@ -47,24 +47,51 @@ Write from scratch, in any language.
 
 ## Discussion
 
+<script type="text/javascript" src="{{ "/assets/js/toggle-answer.js" | absolute_url }}"></script>
+<a class="toggle-all-answers-button">Show all answers ▽</a>
+
 Scenario: crawler of webpages
 
-1. Describe the sequence of operations the crawler needs to perform, to produce the desired output.
 
-2. How would you architect the crawler? What's the responsibility of each component?
+1. <div class="question">Describe the sequence of operations the crawler needs to perform, to produce the desired output.
+    <span class="toggle-answer-icon">▽</span>
+    <div class="answer">Answer: This is the answer this is the answer this is the answer.</div>
+    </div>
 
-3. How can the crawler enforce that the maximum number of distinct pages to visit is, say, `1000`?
+2. <div class="question">How would you architect the crawler? What's the responsibility of each component?
+    <span class="toggle-answer-icon">▽</span>
+    <div class="answer">Answer: This is the answer this is the answer this is the answer.</div>
+    </div>
 
-4. What data structure should the crawler use to represent how pages link to each other?
+3. <div class="question">How can the crawler enforce that the maximum number of distinct pages to visit is, say, `1000`?
+    <span class="toggle-answer-icon">▽</span>
+    <div class="answer">Answer: This is the answer this is the answer this is the answer.</div>
+    </div>
 
-5. What metric can we use to benchmark the *speed* of different crawlers?
+4. <div class="question">What data structure should the crawler use to represent how pages link to each other?
+    <span class="toggle-answer-icon">▽</span>
+    <div class="answer">Answer: This is the answer this is the answer this is the answer.</div>
+    </div>
 
-6. Is the crawler we previously designed capable of fetching multiple webpages in parallel?
+5. <div class="question">What metric can we use to benchmark the *speed* of different crawlers?
+    <span class="toggle-answer-icon">▽</span>
+    <div class="answer">Answer: This is the answer this is the answer this is the answer.</div>
+    </div>
 
-7. What types of errors can the crawler encounter while navigating webpages?
+6. <div class="question">Is the crawler we previously designed capable of fetching multiple webpages in parallel?
+    <span class="toggle-answer-icon">▽</span>
+    <div class="answer">Answer: This is the answer this is the answer this is the answer.</div>
+    </div>
 
-8. How would the crawler handle query parameters in a URL?
+7. <div class="question">What types of errors can the crawler encounter while navigating webpages?
+    <span class="toggle-answer-icon">▽</span>
+    <div class="answer">Answer: This is the answer this is the answer this is the answer.</div>
+    </div>
 
+8. <div class="question">How would the crawler handle query parameters in a URL?
+    <span class="toggle-answer-icon">▽</span>
+    <div class="answer">Answer: This is the answer this is the answer this is the answer.</div>
+    </div>
 
 
 
@@ -145,12 +172,6 @@ https://en.wikipedia.org/wiki/Ion   12
 {: .d-inline-block } 
 After phone screen
 {: .label .label-yellow }
-
-
-### Example solution
-{: .no_toc }
-
-here
 
 
 --- 

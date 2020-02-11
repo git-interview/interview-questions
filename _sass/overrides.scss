@@ -1,4 +1,15 @@
+.toggle-all-answers-button {
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
 .question {
+    margin-bottom: 7px;
+    cursor: pointer;
+
+    .toggle-answer-icon {
+        color: #DDDDDD;
+    }
 }
 
 .answer {

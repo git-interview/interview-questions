@@ -148,7 +148,11 @@ Hiring managers can use it to create awesome interview plans.
 
 ## Price
 
-Each question will cost $25.
+Each question will cost **$39**, which includes:
+
+* 3 interview formats: phone-screen, take-home, and onsite.
+* a detailed list of questions and answers.
+* a grading rubric.
 
 
 ---
