@@ -155,10 +155,13 @@ Each question will cost **$39**, which includes:
 * a grading rubric.
 
 
----
+--- 
 
 
+[Notify me when Interview Pro launches](/notify-me){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 }
 [Give feedback](/give-feedback){: .btn .fs-5 .mb-4 .mb-md-0 }
+
 
 © 2020 Interview Pro
 {: .fs-1 .fw-300 .text-grey-dk-000}
+
