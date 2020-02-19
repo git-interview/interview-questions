@@ -4,7 +4,7 @@ nav_order: 2
 layout: default
 has_children: true
 has_toc: false
-description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
+description: "Library of real-world interview questions for a Backend Engineer."
 permalink: "/backend-questions"
 ---
 

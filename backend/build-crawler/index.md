@@ -5,7 +5,7 @@ nav_order: 1
 layout: default
 has_children: true
 has_toc: false
-description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
+description: "Interview question for a Backend Engineer: Build a web crawler"
 permalink: "/backend-questions/build-a-web-crawler"
 ---
 

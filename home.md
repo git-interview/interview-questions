@@ -2,7 +2,7 @@
 title: "Home"
 nav_order: 1
 layout: default
-description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
+description: "Interview Pro is a library of real-world interview questions. Hiring managers can use it to create awesome interview plans."
 permalink: "/"
 ---
 
@@ -55,7 +55,7 @@ Hiring managers can use it to create awesome interview plans.
     </li>
     <li class="d-inline-block v-align-top mr-5" style="width: 150px;">
         <img src="/frontend/q2/cover.png" />
-        <p>Debug a faulty React controller</p>
+        <p>Debug a faulty javascript controller</p>
     </li>
     <li class="d-inline-block v-align-top mr-5" style="width: 150px;">
         <img src="/frontend/q3/cover.png" />
@@ -134,7 +134,7 @@ Hiring managers can use it to create awesome interview plans.
     </li>
     <li class="d-inline-block v-align-top mr-5" style="width: 150px;">
         <img src="/data/q3/cover.png" />
-        <p>Deduplicate data in a Hadoop cluster</p>
+        <p>Deduplicate records in a data warehouse</p>
     </li>
     <li class="d-inline-block v-align-top mr-5" style="width: 150px;">
         <img src="/data/q4/cover.png" />
