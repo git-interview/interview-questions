@@ -84,7 +84,12 @@ During onsite
     <div class="answer">Answer: This is the answer to the question this is the answer to the question this is the qnswer this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this.</div>
     </div>
 
-3. <div class="question">How can the crawler enforce that the maximum number of distinct pages to visit is, say, <code class="highlighter-rouge">1000</code>?
+3. <div class="question">How can the crawler enforce that the maximum number of distinct pages to visit is, say, <code class="highlighter-rouge">1000</code>? Are there situations where the crawler stops before reaching 1000 pages?
+    <span class="toggle-answer-icon">▽</span>
+    <div class="answer">Answer: This is the answer to the question this is the answer to the question this is the qnswer this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this.</div>
+    </div>
+
+3. <div class="question">How can the crawler avoid crawling the same URL more than once?
     <span class="toggle-answer-icon">▽</span>
     <div class="answer">Answer: This is the answer to the question this is the answer to the question this is the qnswer this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this.</div>
     </div>
