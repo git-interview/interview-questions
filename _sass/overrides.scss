@@ -1,4 +1,5 @@
-.toggle-all-answers-button {
+.toggle-all-answers-button, 
+.toggle-solution-button {
     margin-bottom: 15px;
     cursor: pointer;
 }
@@ -14,5 +15,9 @@
 
 .answer {
     color: red;
+    display: none;
+}
+
+.solution {
     display: none;
 }

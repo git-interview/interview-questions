@@ -1,3 +1,3 @@
-# writeup 
+### my notes
 
-here
+about my solution 2

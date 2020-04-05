@@ -64,18 +64,9 @@ https://en.wikipedia.org/wiki/Ion   12
 ### Tasks
 {: .no_toc }
 
-<script type="text/javascript" src="{{ "/assets/js/toggle-answer.js" | absolute_url }}"></script>
-<a class="toggle-all-answers-button">Show all answers ▽</a>
+1. Implement the webcrawler described above. Use the programming language and tools of your choice. 
 
-1. <div class="question">Implement the webcrawler described above. Use the programming language and tools of your choice. 
-    <span class="toggle-answer-icon">▽</span>
-    <div class="answer">Answer: This is the answer this is the answer this is the answer.</div>
-    </div>
-
-2. <div class="question">Document any important design decisions and assumptions you made along the way, and their associated tradeoffs.
-    <span class="toggle-answer-icon">▽</span>
-    <div class="answer">Answer: This is the answer this is the answer this is the answer.</div>
-    </div>
+2. Document any important design decisions and assumptions you made along the way, and their associated tradeoffs.
 
 
 ### Duration
@@ -92,6 +83,25 @@ Your submission will be evaluated by an engineer according to the following crit
 * Criterion 1
 * Criterion 2
 * Criterion 3
+
+
+---
+
+
+## Solution
+{: .d-inline-block } 
+For reviewer
+{: .label .label-yellow }
+
+<script type="text/javascript" src="{{ "/assets/js/toggle-solution.js" | absolute_url }}"></script>
+
+<a href="https://gist.github.com/git-interview/36afa27c5c1b8476308ad5a9de79dff9/archive/master.zip">Download ZIP</a>
+&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a class="toggle-solution-button">Show solution ▽</a>
+
+<div class="solution">
+    <script src="https://gist.github.com/git-interview/36afa27c5c1b8476308ad5a9de79dff9.js"></script>
+</div>
 
 
 ---
