@@ -96,7 +96,7 @@ For reviewer
 <script type="text/javascript" src="{{ "/assets/js/toggle-solution.js" | absolute_url }}"></script>
 
 <a href="https://gist.github.com/git-interview/36afa27c5c1b8476308ad5a9de79dff9/archive/master.zip">Download ZIP</a>
-&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;|&nbsp;&nbsp;
 <a class="toggle-solution-button">Show solution ▽</a>
 
 <div class="solution">
