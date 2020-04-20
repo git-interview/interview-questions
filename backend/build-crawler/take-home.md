@@ -29,8 +29,11 @@ permalink: "/backend-questions/build-a-web-crawler/take-home"
 </dl>
 
 
---- 
+---
 
+
+#### On this page
+{: .no_toc }
 
 1. TOC
 {: toc}
@@ -48,16 +51,26 @@ For candidate
 Our goal is to design and implement a simplified webcrawler. The system should accept an initial webpage to crawl, such as:
 
 ```
-https://en.wikipedia.org/wiki/Earth
+https://apple.com
 ```
 
-from which it should progressively discover all linked pages. To limit the amount of work performed by the crawler, it should accept a maximum number of distinct pages to visit, for example, `1000`.
+from which it should progressively discover all linked pages. To limit the amount of work performed by the crawler, it should accept a maximum number of distinct pages to visit, for example, `50`.
 
 As the crawler visits pages, it should build a general representation of how pages link to each other. Upon completion, it should print the complete list of pages visited, sorted by decreasing *in-degree* (ie, how many pages link to it). For example:
 
 ```
-https://en.wikipedia.org/wiki/Sun   18
-https://en.wikipedia.org/wiki/Ion   12
+URL                                    IN-DEGREE
+--------------------------------------------------
+https://apple.com/us/search                44
+https://www.icloud.com                     42
+https://support.apple.com                  36
+https://apple.com/us/shop/goto/bag         35
+https://apple.com/ipad                     34
+https://apple.com/watch                    34
+https://apple.com/tv                       34
+https://apple.com/music                    34
+https://apple.com/mac                      34
+https://apple.com/iphone                   34
 ...
 ```
 
