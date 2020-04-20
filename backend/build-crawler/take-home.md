@@ -59,18 +59,18 @@ from which it should progressively discover all linked pages. To limit the amoun
 As the crawler visits pages, it should build a general representation of how pages link to each other. Upon completion, it should print the complete list of pages visited, sorted by decreasing *in-degree* (ie, how many pages link to it). For example:
 
 ```
-URL                                    IN-DEGREE
---------------------------------------------------
-https://apple.com/us/search                44
-https://www.icloud.com                     42
-https://support.apple.com                  36
-https://apple.com/us/shop/goto/bag         35
-https://apple.com/ipad                     34
-https://apple.com/watch                    34
-https://apple.com/tv                       34
-https://apple.com/music                    34
-https://apple.com/mac                      34
-https://apple.com/iphone                   34
+URL                              IN-DEGREE
+--------------------------------------------
+https://apple.com/us/search          44
+https://www.icloud.com               42
+https://support.apple.com            36
+https://apple.com/us/shop            35
+https://apple.com/ipad               34
+https://apple.com/watch              34
+https://apple.com/tv                 34
+https://apple.com/music              34
+https://apple.com/mac                34
+https://apple.com/iphone             34
 ...
 ```
 
@@ -108,6 +108,7 @@ For reviewer
 
 <script type="text/javascript" src="{{ "/assets/js/toggle-solution.js" | absolute_url }}"></script>
 
+
 <a href="https://gist.github.com/git-interview/36afa27c5c1b8476308ad5a9de79dff9/archive/master.zip">Download ZIP</a>
 &nbsp;&nbsp;|&nbsp;&nbsp;
 <a class="toggle-solution-button">Show solution ▽</a>
@@ -115,7 +116,6 @@ For reviewer
 <div class="solution">
     <script src="https://gist.github.com/git-interview/36afa27c5c1b8476308ad5a9de79dff9.js?file=readme.md"></script>
     <script src="https://gist.github.com/git-interview/36afa27c5c1b8476308ad5a9de79dff9.js?file=solution.py"></script>
-    <script src="https://gist.github.com/git-interview/36afa27c5c1b8476308ad5a9de79dff9.js?file=output.txt"></script>
     <script src="https://gist.github.com/git-interview/36afa27c5c1b8476308ad5a9de79dff9.js?file=output.log"></script>
     <script src="https://gist.github.com/git-interview/36afa27c5c1b8476308ad5a9de79dff9.js?file=Dockerfile"></script>
     <script src="https://gist.github.com/git-interview/36afa27c5c1b8476308ad5a9de79dff9.js?file=requirements.txt"></script>
