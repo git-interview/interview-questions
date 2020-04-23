@@ -16,7 +16,7 @@ permalink: "/backend-questions/build-a-web-crawler/take-home"
     <dd>Design and implement a simple web crawler.</dd>
 
     <dt>Duration</dt>
-    <dd>2 hours</dd>
+    <dd>3 hours</dd>
 
     <dt>Difficulty</dt>
     <dd>Medium</dd>
@@ -59,18 +59,18 @@ from which it should progressively discover all linked pages. To limit the amoun
 As the crawler visits pages, it should build a general representation of how pages link to each other. Upon completion, it should print the complete list of pages visited, sorted by decreasing *in-degree* (ie, how many pages link to it). For example:
 
 ```
-URL                              IN-DEGREE
---------------------------------------------
-https://apple.com/us/search          44
-https://www.icloud.com               42
-https://support.apple.com            36
-https://apple.com/us/shop            35
-https://apple.com/ipad               34
-https://apple.com/watch              34
-https://apple.com/tv                 34
-https://apple.com/music              34
-https://apple.com/mac                34
-https://apple.com/iphone             34
+URL                               IN-DEGREE
+---------------------------------------------
+https://apple.com/us/search           44
+https://www.icloud.com                42
+https://support.apple.com             36
+https://apple.com/us/shop             35
+https://apple.com/ipad                34
+https://apple.com/watch               34
+https://apple.com/tv                  34
+https://apple.com/music               34
+https://apple.com/mac                 34
+https://apple.com/iphone              34
 ...
 ```
 
@@ -79,7 +79,7 @@ https://apple.com/iphone             34
 
 1. Implement the webcrawler described above. Use the programming language and tools of your choice. 
 
-2. Document any important design decisions and assumptions you made along the way, and their associated tradeoffs.
+2. Include any additional information that you think will help the reviewer understand your solution. For example: important design decisions, assumptions, or future improvements.
 
 
 ### Duration
@@ -129,6 +129,119 @@ For reviewer
 {: .d-inline-block } 
 For reviewer
 {: .label .label-yellow }
+
+
+
+<table>
+    <tr>
+        <th>Dimension</th>
+        <th>Score</th>
+        <th>Weight</th>
+    </tr>
+    <tr>
+        <td>Functionality</td>
+        <td>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male"><strong>3 points</strong>: Perfect functionality. Search function works. Clicking on a still thumbnail launches a lightbox view with navigation. Able to navigate between animated GIFs in the lightbox modal.</label>
+            <br><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female"><strong>2 points</strong>: Issues or missing features hinder user experience. For example, navigation may be missing from the lightbox.</label>
+            <br><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other"><strong>1 point</strong>: Unable to interact with the GIF browsing app; page is completely broken.</label>
+        </td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Functionality</td>
+        <td>
+            <input type="radio" id="male2" name="gender2" value="male2">
+            <label for="male2"><strong>3 points</strong>: Perfect functionality. Search function works. Clicking on a still thumbnail launches a lightbox view with navigation. Able to navigate between animated GIFs in the lightbox modal.</label>
+            <br><br>
+            <input type="radio" id="female2" name="gender2" value="female2">
+            <label for="female2"><strong>2 points</strong>: Issues or missing features hinder user experience. For example, navigation may be missing from the lightbox.</label>
+            <br><br>
+            <input type="radio" id="other2" name="gender2" value="other2">
+            <label for="other2"><strong>1 point</strong>: Unable to interact with the GIF browsing app; page is completely broken.</label>
+        </td>
+        <td>1</td>
+    </tr>
+</table>
+
+
+
+Format
+    Dimension           1 = below/no     2 = avg/maybe    3 = above/yes
+    Dimension           1                2                3
+    Dimension           1                2                3
+    Dimension           1                2                3
+    Dimension           1                2                3
+    Dimension           1                2                3
+    Dimension           1                2                3
+    Dimension           1                2                3
+    Dimension           1                2                3
+    -----------------------------------------------------------
+    Overall weighed score            0 - 10
+
+
+
+
+Dimensions
+    Code quality (same criteria as a code review)
+        Readability
+        Comments
+        Reusability
+        Reproducible environment
+        Does it meet the spec
+            Does it accept a starting URL?
+            Does it respect max_pages?
+            Does it print in-degrees?
+        Extra features
+            Concurrency
+            Rate limiting
+            Content types
+            Page retries
+            Exception handling
+            Tests
+    Understanding of design decisions, limitations, improvements
+        Clarity of communication
+
+
+<table>
+    <tr>
+        <th>Dimension</th>
+        <th>Score</th>
+        <th>Weight</th>
+    </tr>
+    <tr>
+        <td>User experience</td>
+        <td>
+            <dl>
+                <dt><strong>3 points</strong></dt>
+                <dd>Perfect functionality. Search function works. Clicking on a still thumbnail launches a lightbox view with navigation. Able to navigate between animated GIFs in the lightbox modal.</dd>
+                <dt><strong>2 points</strong></dt>
+                <dd>Issues or missing features hinder user experience. For example, navigation may be missing from the lightbox.</dd>
+                <dt><strong>1 point</strong></dt>
+                <dd>Unable to interact with the GIF browsing app; page is completely broken.</dd>
+            </dl>
+        </td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>User experience</td>
+        <td>
+            <dl>
+                <dt><strong>3 points</strong></dt>
+                <dd>Perfect functionality. Search function works. Clicking on a still thumbnail launches a lightbox view with navigation. Able to navigate between animated GIFs in the lightbox modal.</dd>
+                <dt><strong>2 points</strong></dt>
+                <dd>Issues or missing features hinder user experience. For example, navigation may be missing from the lightbox.</dd>
+                <dt><strong>1 point</strong></dt>
+                <dd>Unable to interact with the GIF browsing app; page is completely broken.</dd>
+            </dl>
+        </td>
+        <td>1</td>
+    </tr>
+</table>
 
 
 --- 
