@@ -141,6 +141,7 @@ For reviewer
     <tr>
         <td>Functionality</td>
         <td>
+            <br>
             <input type="radio" id="male" name="gender" value="male">
             <label for="male"><strong>3 points</strong>: Perfect functionality. Search function works. Clicking on a still thumbnail launches a lightbox view with navigation. Able to navigate between animated GIFs in the lightbox modal.</label>
             <br><br>
@@ -149,12 +150,15 @@ For reviewer
             <br><br>
             <input type="radio" id="other" name="gender" value="other">
             <label for="other"><strong>1 point</strong>: Unable to interact with the GIF browsing app; page is completely broken.</label>
+            <br>
+            <br>
         </td>
         <td>1</td>
     </tr>
     <tr>
         <td>Functionality</td>
         <td>
+            <br>
             <input type="radio" id="male2" name="gender2" value="male2">
             <label for="male2"><strong>3 points</strong>: Perfect functionality. Search function works. Clicking on a still thumbnail launches a lightbox view with navigation. Able to navigate between animated GIFs in the lightbox modal.</label>
             <br><br>
@@ -163,6 +167,8 @@ For reviewer
             <br><br>
             <input type="radio" id="other2" name="gender2" value="other2">
             <label for="other2"><strong>1 point</strong>: Unable to interact with the GIF browsing app; page is completely broken.</label>
+            <br>
+            <br>
         </td>
         <td>1</td>
     </tr>
@@ -205,43 +211,6 @@ Dimensions
             Tests
     Understanding of design decisions, limitations, improvements
         Clarity of communication
-
-
-<table>
-    <tr>
-        <th>Dimension</th>
-        <th>Score</th>
-        <th>Weight</th>
-    </tr>
-    <tr>
-        <td>User experience</td>
-        <td>
-            <dl>
-                <dt><strong>3 points</strong></dt>
-                <dd>Perfect functionality. Search function works. Clicking on a still thumbnail launches a lightbox view with navigation. Able to navigate between animated GIFs in the lightbox modal.</dd>
-                <dt><strong>2 points</strong></dt>
-                <dd>Issues or missing features hinder user experience. For example, navigation may be missing from the lightbox.</dd>
-                <dt><strong>1 point</strong></dt>
-                <dd>Unable to interact with the GIF browsing app; page is completely broken.</dd>
-            </dl>
-        </td>
-        <td>1</td>
-    </tr>
-    <tr>
-        <td>User experience</td>
-        <td>
-            <dl>
-                <dt><strong>3 points</strong></dt>
-                <dd>Perfect functionality. Search function works. Clicking on a still thumbnail launches a lightbox view with navigation. Able to navigate between animated GIFs in the lightbox modal.</dd>
-                <dt><strong>2 points</strong></dt>
-                <dd>Issues or missing features hinder user experience. For example, navigation may be missing from the lightbox.</dd>
-                <dt><strong>1 point</strong></dt>
-                <dd>Unable to interact with the GIF browsing app; page is completely broken.</dd>
-            </dl>
-        </td>
-        <td>1</td>
-    </tr>
-</table>
 
 
 --- 
