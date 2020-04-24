@@ -85,17 +85,16 @@ https://apple.com/iphone              34
 ### Duration
 {: .no_toc }
 
-Spend a maximum of 2 hours.
+Spend a maximum of 3 hours.
 
 
-### Evaluation criteria
+### Grading criteria
 {: .no_toc }
 
-Your submission will be evaluated by an engineer according to the following criteria:
+Your submission will be graded by an engineer according to the following criteria:
 
-* Criterion 1
-* Criterion 2
-* Criterion 3
+* Code quality
+* Design decisions
 
 
 ---
@@ -131,63 +130,90 @@ For reviewer
 {: .label .label-yellow }
 
 
-
 <table>
     <tr>
-        <th>Dimension</th>
-        <th>Score</th>
-        <th>Weight</th>
+        <th>Criterion</th>
+        <th>Grade</th>
     </tr>
     <tr>
-        <td>Functionality</td>
+        <td>Criterion</td>
         <td>
             <br>
-            <input type="radio" id="male" name="gender" value="male">
-            <label for="male"><strong>3 points</strong>: Perfect functionality. Search function works. Clicking on a still thumbnail launches a lightbox view with navigation. Able to navigate between animated GIFs in the lightbox modal.</label>
+            <input type="radio" name="criterion" id="excellent">
+            <label for="excellent">
+                <strong>Excellent</strong>: Details
+            </label>
             <br><br>
-            <input type="radio" id="female" name="gender" value="female">
-            <label for="female"><strong>2 points</strong>: Issues or missing features hinder user experience. For example, navigation may be missing from the lightbox.</label>
+            <input type="radio" name="criterion" id="good">
+            <label for="good">
+                <strong>Good</strong>: Details
+            </label>
             <br><br>
-            <input type="radio" id="other" name="gender" value="other">
-            <label for="other"><strong>1 point</strong>: Unable to interact with the GIF browsing app; page is completely broken.</label>
-            <br>
-            <br>
+            <input type="radio" name="criterion" id="poor">
+            <label for="poor">
+                <strong>Poor</strong>: Details
+            </label>
+            <br><br>
+            <input type="radio" name="criterion" id="very-poor">
+            <label for="very-poor">
+                <strong>Very poor</strong>: Details
+            </label>
+            <br><br>
         </td>
-        <td>1</td>
     </tr>
     <tr>
-        <td>Functionality</td>
+        <td>Criterion</td>
         <td>
             <br>
-            <input type="radio" id="male2" name="gender2" value="male2">
-            <label for="male2"><strong>3 points</strong>: Perfect functionality. Search function works. Clicking on a still thumbnail launches a lightbox view with navigation. Able to navigate between animated GIFs in the lightbox modal.</label>
+            <input type="radio" name="criterion" id="excellent">
+            <label for="excellent">
+                <strong>Excellent</strong>: Details
+            </label>
             <br><br>
-            <input type="radio" id="female2" name="gender2" value="female2">
-            <label for="female2"><strong>2 points</strong>: Issues or missing features hinder user experience. For example, navigation may be missing from the lightbox.</label>
+            <input type="radio" name="criterion" id="good">
+            <label for="good">
+                <strong>Good</strong>: Details
+            </label>
             <br><br>
-            <input type="radio" id="other2" name="gender2" value="other2">
-            <label for="other2"><strong>1 point</strong>: Unable to interact with the GIF browsing app; page is completely broken.</label>
-            <br>
-            <br>
+            <input type="radio" name="criterion" id="poor">
+            <label for="poor">
+                <strong>Poor</strong>: Details
+            </label>
+            <br><br>
+            <input type="radio" name="criterion" id="very-poor">
+            <label for="very-poor">
+                <strong>Very poor</strong>: Details
+            </label>
+            <br><br>
         </td>
-        <td>1</td>
+    </tr>
+    <tr>
+        <td>User experience</td>
+        <td>
+            <br>
+            <input type="radio" name="user-experience" id="excellent">
+            <label for="excellent">
+                <strong>Excellent</strong>: Exceptionally good design and user experience; the top 5%. Along with everything from the level below, the design is beautiful and clear.
+            </label>
+            <br><br>
+            <input type="radio" name="user-experience" id="good">
+            <label for="good">
+                <strong>Good</strong>: It’s clear what you need to do to use it. Design is allowed to be basic but functional at this level. High-priority data visible at all viewport sizes. Click targets large and well placed. Legible text that sufficiently contrasts against the background. Image aspect ratios are preserved (no stretched or squashed images).
+            </label>
+            <br><br>
+            <input type="radio" name="user-experience" id="poor">
+            <label for="poor">
+                <strong>Poor</strong>: UI is indecipherable. Project suffers from small click targets, illegible text, small or stretched images, ugly design.
+            </label>
+            <br><br>
+            <input type="radio" name="user-experience" id="very-poor">
+            <label for="very-poor">
+                <strong>Very poor</strong>: Designed so badly that it can’t be used. No styling/CSS applied.
+            </label>
+            <br><br>
+        </td>
     </tr>
 </table>
-
-
-
-Format
-    Dimension           1 = below/no     2 = avg/maybe    3 = above/yes
-    Dimension           1                2                3
-    Dimension           1                2                3
-    Dimension           1                2                3
-    Dimension           1                2                3
-    Dimension           1                2                3
-    Dimension           1                2                3
-    Dimension           1                2                3
-    Dimension           1                2                3
-    -----------------------------------------------------------
-    Overall weighed score            0 - 10
 
 
 
