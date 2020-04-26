@@ -136,6 +136,58 @@ For reviewer
         <th>Grade</th>
     </tr>
     <tr>
+        <td>Functionality</td>
+        <td>
+            <br>
+            <input type="radio" name="criterion" id="excellent">
+            <label for="excellent">
+                <strong>Excellent</strong>: The solution runs and meets all requirements: it accepts an initial webpage to crawl, strictly respects the limit of pages to visit, and correctly prints pages sorted by decreasing in-degree. The solution also handles implicit corner cases well, such as when the initial page contains no links, or the initial page is unfetchable.
+            </label>
+            <br><br>
+            <input type="radio" name="criterion" id="good">
+            <label for="good">
+                <strong>Good</strong>: The solution runs and meets most requirements. It might handle a requirement imperfectly, such as crawling more pages than the specified limit. It might miss some corner cases, such as when the initial page is unfetchable or has no links.
+            </label>
+            <br><br>
+            <input type="radio" name="criterion" id="poor">
+            <label for="poor">
+                <strong>Poor</strong>: The solution runs, but fails to meet most of the requirements.
+            </label>
+            <br><br>
+            <input type="radio" name="criterion" id="very-poor">
+            <label for="very-poor">
+                <strong>Very poor</strong>: The solution doesn't run, or fails to meet any requirement.
+            </label>
+            <br><br>
+        </td>
+    </tr>
+    <tr>
+        <td>Criterion</td>
+        <td>
+            <br>
+            <input type="radio" name="criterion" id="excellent">
+            <label for="excellent">
+                <strong>Excellent</strong>: Details
+            </label>
+            <br><br>
+            <input type="radio" name="criterion" id="good">
+            <label for="good">
+                <strong>Good</strong>: Details
+            </label>
+            <br><br>
+            <input type="radio" name="criterion" id="poor">
+            <label for="poor">
+                <strong>Poor</strong>: Details
+            </label>
+            <br><br>
+            <input type="radio" name="criterion" id="very-poor">
+            <label for="very-poor">
+                <strong>Very poor</strong>: Details
+            </label>
+            <br><br>
+        </td>
+    </tr>
+    <tr>
         <td>Criterion</td>
         <td>
             <br>
@@ -183,32 +235,6 @@ For reviewer
             <input type="radio" name="criterion" id="very-poor">
             <label for="very-poor">
                 <strong>Very poor</strong>: Details
-            </label>
-            <br><br>
-        </td>
-    </tr>
-    <tr>
-        <td>User experience</td>
-        <td>
-            <br>
-            <input type="radio" name="user-experience" id="excellent">
-            <label for="excellent">
-                <strong>Excellent</strong>: Exceptionally good design and user experience; the top 5%. Along with everything from the level below, the design is beautiful and clear.
-            </label>
-            <br><br>
-            <input type="radio" name="user-experience" id="good">
-            <label for="good">
-                <strong>Good</strong>: It’s clear what you need to do to use it. Design is allowed to be basic but functional at this level. High-priority data visible at all viewport sizes. Click targets large and well placed. Legible text that sufficiently contrasts against the background. Image aspect ratios are preserved (no stretched or squashed images).
-            </label>
-            <br><br>
-            <input type="radio" name="user-experience" id="poor">
-            <label for="poor">
-                <strong>Poor</strong>: UI is indecipherable. Project suffers from small click targets, illegible text, small or stretched images, ugly design.
-            </label>
-            <br><br>
-            <input type="radio" name="user-experience" id="very-poor">
-            <label for="very-poor">
-                <strong>Very poor</strong>: Designed so badly that it can’t be used. No styling/CSS applied.
             </label>
             <br><br>
         </td>
@@ -217,17 +243,26 @@ For reviewer
 
 
 
+Observables
+    Code / build scripts / tests
+    Writeup
 
 Dimensions
+    Meeting requirements, functionality
+    Design: classes, interfaces, simple, reusable
+    Concurrency
+    Error handling
+    Testing
+    Readability, comments, documentation, naming, style, consistency
+    Clarity of writeup
+    Understanding of limitations mentioned
+    Environment / build scripts
+
+
     Code quality (same criteria as a code review)
-        Readability
-        Comments
+        Readability, Comments
         Reusability
         Reproducible environment
-        Does it meet the spec
-            Does it accept a starting URL?
-            Does it respect max_pages?
-            Does it print in-degrees?
         Extra features
             Concurrency
             Rate limiting
