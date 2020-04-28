@@ -130,148 +130,129 @@ For reviewer
 {: .label .label-yellow }
 
 
+<strong>Functional requirements</strong>
 <table>
     <tr>
-        <th>Criterion</th>
-        <th>Grade</th>
-    </tr>
-    <tr>
-        <td>Functionality</td>
         <td>
-            <br>
-            <input type="radio" name="criterion" id="excellent">
-            <label for="excellent">
-                <strong>Excellent</strong>: The solution runs and meets all requirements: it accepts an initial webpage to crawl, strictly respects the limit of pages to visit, and correctly prints pages sorted by decreasing in-degree. The solution also handles implicit corner cases well, such as when the initial page contains no links, or the initial page is unfetchable.
-            </label>
-            <br><br>
-            <input type="radio" name="criterion" id="good">
-            <label for="good">
-                <strong>Good</strong>: The solution runs and meets most requirements. It might handle a requirement imperfectly, such as crawling more pages than the specified limit. It might miss some corner cases, such as when the initial page is unfetchable or has no links.
-            </label>
-            <br><br>
-            <input type="radio" name="criterion" id="poor">
-            <label for="poor">
-                <strong>Poor</strong>: The solution runs, but fails to meet most of the requirements.
-            </label>
-            <br><br>
-            <input type="radio" name="criterion" id="very-poor">
-            <label for="very-poor">
-                <strong>Very poor</strong>: The solution doesn't run, or fails to meet any requirement.
-            </label>
-            <br><br>
+            The solution accepts an initial webpage to crawl, for example, <code>https://apple.com</code>.
+        </td>
+        <td class="grade-col">
+            <input type="radio" name="fr1" id="fr1-no"><label for="fr1-no">&nbsp;No</label>
+            &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="fr1" id="fr1-yes"><label for="fr1-yes">&nbsp;Yes</label>
         </td>
     </tr>
     <tr>
-        <td>Criterion</td>
         <td>
-            <br>
-            <input type="radio" name="criterion" id="excellent">
-            <label for="excellent">
-                <strong>Excellent</strong>: Details
-            </label>
-            <br><br>
-            <input type="radio" name="criterion" id="good">
-            <label for="good">
-                <strong>Good</strong>: Details
-            </label>
-            <br><br>
-            <input type="radio" name="criterion" id="poor">
-            <label for="poor">
-                <strong>Poor</strong>: Details
-            </label>
-            <br><br>
-            <input type="radio" name="criterion" id="very-poor">
-            <label for="very-poor">
-                <strong>Very poor</strong>: Details
-            </label>
-            <br><br>
+            The solution strictly respects the limit of pages to visit, for example, <code>10</code>.
+        </td>
+        <td class="grade-col">
+            <input type="radio" name="fr2" id="fr2-no"><label for="fr2-no">&nbsp;No</label>
+            &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="fr2" id="fr2-yes"><label for="fr2-yes">&nbsp;Yes</label>
         </td>
     </tr>
     <tr>
-        <td>Criterion</td>
         <td>
-            <br>
-            <input type="radio" name="criterion" id="excellent">
-            <label for="excellent">
-                <strong>Excellent</strong>: Details
-            </label>
-            <br><br>
-            <input type="radio" name="criterion" id="good">
-            <label for="good">
-                <strong>Good</strong>: Details
-            </label>
-            <br><br>
-            <input type="radio" name="criterion" id="poor">
-            <label for="poor">
-                <strong>Poor</strong>: Details
-            </label>
-            <br><br>
-            <input type="radio" name="criterion" id="very-poor">
-            <label for="very-poor">
-                <strong>Very poor</strong>: Details
-            </label>
-            <br><br>
+            The solution correctly prints pages sorted by decreasing in-degree.
         </td>
-    </tr>
-    <tr>
-        <td>Criterion</td>
-        <td>
-            <br>
-            <input type="radio" name="criterion" id="excellent">
-            <label for="excellent">
-                <strong>Excellent</strong>: Details
-            </label>
-            <br><br>
-            <input type="radio" name="criterion" id="good">
-            <label for="good">
-                <strong>Good</strong>: Details
-            </label>
-            <br><br>
-            <input type="radio" name="criterion" id="poor">
-            <label for="poor">
-                <strong>Poor</strong>: Details
-            </label>
-            <br><br>
-            <input type="radio" name="criterion" id="very-poor">
-            <label for="very-poor">
-                <strong>Very poor</strong>: Details
-            </label>
-            <br><br>
+        <td class="grade-col">
+            <input type="radio" name="fr3" id="fr3-no"><label for="fr3-no">&nbsp;No</label>
+            &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="fr3" id="fr3-yes"><label for="fr3-yes">&nbsp;Yes</label>
         </td>
     </tr>
 </table>
 
 
+<strong>Code architecture</strong>
+<table>
+    <tr>
+        <td>
+            The code is composed of building blocks that are defined in a understandable, coherent, and elegant manner. For example, the solution may consist of classes to represent domain objects, such as <code>Crawler</code>, <code>Page</code> or <code>Link</code>.
+        </td>
+        <td class="grade-col">
+            <input type="radio" name="ca1" id="ca1-no"><label for="ca1-no">&nbsp;No</label>
+            &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="ca1" id="ca1-yes"><label for="ca1-yes">&nbsp;Yes</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            The building blocks hide the implementation details. For example, we can change the persistence method of the graph of webpages (memory or in disk) without changing all codebase. 
+        </td>
+        <td class="grade-col">
+            <input type="radio" name="ca2" id="ca2-no"><label for="ca2-no">&nbsp;No</label>
+            &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="ca2" id="ca2-yes"><label for="ca2-yes">&nbsp;Yes</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            The building blocks are reusable, and can be easily extended with new functionality. For example, 
+        </td>
+        <td class="grade-col">
+            <input type="radio" name="ca3" id="ca3-no"><label for="ca3-no">&nbsp;No</label>
+            &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="ca3" id="ca3-yes"><label for="ca3-yes">&nbsp;Yes</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            The interface of each building block is simple, clean, and natural.
+        </td>
+        <td class="grade-col">
+            <input type="radio" name="ca4" id="ca4-no"><label for="ca4-no">&nbsp;No</label>
+            &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="ca4" id="ca4-yes"><label for="ca4-yes">&nbsp;Yes</label>
+        </td>
+    </tr>
+</table>
 
-Observables
-    Code / build scripts / tests
-    Writeup
 
-Dimensions
-    Meeting requirements, functionality
-    Design: classes, interfaces, simple, reusable
-    Concurrency
-    Error handling
-    Testing
-    Readability, comments, documentation, naming, style, consistency
-    Clarity of writeup
-    Understanding of limitations mentioned
-    Environment / build scripts
-
-
-    Code quality (same criteria as a code review)
-        Readability, Comments
-        Reusability
-        Reproducible environment
-        Extra features
-            Concurrency
-            Rate limiting
-            Content types
-            Page retries
-            Exception handling
-            Tests
-    Understanding of design decisions, limitations, improvements
-        Clarity of communication
+<strong>Criteria</strong>
+<table>
+    <tr>
+        <td>
+            c1
+        </td>
+        <td class="grade-col">
+            <input type="radio" name="c1" id="c1-no"><label for="c1-no">&nbsp;No</label>
+            &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="c1" id="c1-yes"><label for="c1-yes">&nbsp;Yes</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            c2
+        </td>
+        <td class="grade-col">
+            <input type="radio" name="c2" id="c2-no"><label for="c2-no">&nbsp;No</label>
+            &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="c2" id="c2-yes"><label for="c2-yes">&nbsp;Yes</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            c3
+        </td>
+        <td class="grade-col">
+            <input type="radio" name="c3" id="c3-no"><label for="c3-no">&nbsp;No</label>
+            &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="c3" id="c3-yes"><label for="c3-yes">&nbsp;Yes</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            c4
+        </td>
+        <td class="grade-col">
+            <input type="radio" name="c4" id="c4-no"><label for="c4-no">&nbsp;No</label>
+            &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="c4" id="c4-yes"><label for="c4-yes">&nbsp;Yes</label>
+        </td>
+    </tr>
+</table>
 
 
 --- 
