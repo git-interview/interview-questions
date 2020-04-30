@@ -67,14 +67,106 @@ https://en.wikipedia.org/wiki/Ion   12
 ---
 
 
-## Questions
+## Question worksheet
 {: .d-inline-block } 
 During onsite
 {: .label .label-green }
 
 <script type="text/javascript" src="{{ "/assets/js/toggle-answer.js" | absolute_url }}"></script>
-<a class="toggle-all-answers-button">Show all answers ▽</a>
 
+
+### Crawler metrics
+
+<a class="toggle-all-answers-button">Show answers ▽</a>
+
+<ol>
+    <li class="question">What metric can we use to benchmark the <em>speed</em> of different crawlers?
+    <span class="toggle-answer-icon">▽</span>
+    <div class="answer">Answer: This is the answer to the question this is the answer to the question this is the qnswer this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this.</div>
+    </li>
+    <li class="question">What factors (internal or external) influence this metric?
+        <span class="toggle-answer-icon">▽</span>
+        <div class="answer">Answer: This is the answer to the question this is the answer to the question this is the qnswer this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this.</div>
+    </li> 
+    <li class="question">What design changes could we make to improve the performance of the crawler we previously designed?
+        <span class="toggle-answer-icon">▽</span>
+        <div class="answer">Answer: This is the answer to the question this is the answer to the question this is the qnswer  is the answer this this is the answer this this is the answer this this is the answer this this is the answer  this is the answer this this is the answer this this is the answer this.</div>
+    </li>
+</ol>
+
+#### Notes
+<textarea id="w3mission" rows="4" cols="50"></textarea>
+
+#### Grade
+<div class="grade">
+    <input type="radio" name="criterion-1" id="not-applicable-1" checked>
+    <label for="not-applicable-1">Not applicable</label>
+    &nbsp;&nbsp;&nbsp;
+    <input type="radio" name="criterion-1" id="very-poor-1">
+    <label for="very-poor-1">Very poor</label>
+    &nbsp;&nbsp;&nbsp;
+    <input type="radio" name="criterion-1" id="poor-1">
+    <label for="poor-1">Poor</label>
+    &nbsp;&nbsp;&nbsp;
+    <input type="radio" name="criterion-1" id="good-1">
+    <label for="good-1">Good</label>
+    &nbsp;&nbsp;&nbsp;
+    <input type="radio" name="criterion-1" id="excellent-1">
+    <label for="excellent-1">Excellent</label>
+</div>
+
+---
+
+### Concurrency
+
+<a class="toggle-all-answers-button">Show answers ▽</a>
+
+<ol>
+    <li class="question">Is the crawler we previously designed capable of fetching multiple webpages in parallel?
+    <span class="toggle-answer-icon">▽</span>
+    <div class="answer">Answer: This is the answer to the question this is the answer to the question this is the qnswer this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this.</div>
+    </li>
+    <li class="question">How would you extend the design to allow parallel fetching?
+        <span class="toggle-answer-icon">▽</span>
+        <div class="answer">Answer: This is the answer to the question this is the answer to the question this is the qnswer this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this.</div>
+    </li> 
+    <li class="question">How would you implement parallel fetching using <em>multiple processes</em>?
+        <span class="toggle-answer-icon">▽</span>
+        <div class="answer">Answer: This is the answer to the question this is the answer to the question this is the qnswer  is the answer this this is the answer this this is the answer this this is the answer this this is the answer  this is the answer this this is the answer this this is the answer this.</div>
+    </li>
+    <li class="question">How would you implement parallel fetching using a <em>single process</em>?        
+        <span class="toggle-answer-icon">▽</span>
+        <div class="answer">Answer: This is the answer to the question this is the answer to the question this is the qnswer  is the answer this this is the answer this this is the answer this this is the answer this this is the answer  this is the answer this this is the answer this this is the answer this.</div>
+    </li>
+    <li class="question">How would you implement parallel fetching using a <em>single thread</em>?        
+        <span class="toggle-answer-icon">▽</span>
+        <div class="answer">Answer: This is the answer to the question this is the answer to the question this is the qnswer  is the answer this this is the answer this this is the answer this this is the answer this this is the answer  this is the answer this this is the answer this this is the answer this.</div>
+    </li>
+</ol>
+
+#### Notes
+<textarea id="w3mission" rows="4" cols="50"></textarea>
+
+#### Grade
+<div class="grade">
+    <input type="radio" name="criterion" id="not-applicable" checked>
+    <label for="not-applicable">Not applicable</label>
+    &nbsp;&nbsp;&nbsp;
+    <input type="radio" name="criterion" id="very-poor">
+    <label for="very-poor">Very poor</label>
+    &nbsp;&nbsp;&nbsp;
+    <input type="radio" name="criterion" id="poor">
+    <label for="poor">Poor</label>
+    &nbsp;&nbsp;&nbsp;
+    <input type="radio" name="criterion" id="good">
+    <label for="good">Good</label>
+    &nbsp;&nbsp;&nbsp;
+    <input type="radio" name="criterion" id="excellent">
+    <label for="excellent">Excellent</label>
+</div>
+
+
+---
 
 1. <div class="question">Describe the sequence of operations the crawler needs to perform, to produce the desired output.
     <span class="toggle-answer-icon">▽</span>

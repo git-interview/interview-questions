@@ -133,33 +133,39 @@ For reviewer
 <strong>Functional requirements</strong>
 <table>
     <tr>
-        <td>
-            The solution accepts an initial webpage to crawl, for example, <code>https://apple.com</code>.
-        </td>
+        <td><strong>Initial page.</strong> We can specify an initial webpage to crawl, for example, <code>https://apple.com</code>.</td>
         <td class="grade-col">
-            <input type="radio" name="fr1" id="fr1-no"><label for="fr1-no">&nbsp;No</label>
-            &nbsp;&nbsp;&nbsp;
-            <input type="radio" name="fr1" id="fr1-yes"><label for="fr1-yes">&nbsp;Yes</label>
+            <select>
+                <option value="pick-one" selected disabled hidden>Choose</option>
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="poor">Poor</option>
+                <option value="very-poor">Very poor</option>
+            </select>
         </td>
     </tr>
     <tr>
-        <td>
-            The solution strictly respects the limit of pages to visit, for example, <code>10</code>.
-        </td>
+        <td><strong>Max pages.</strong> We can specify the maximum number of pages to crawl, eg, <code>10</code>. This limit is strictly respected.</td>
         <td class="grade-col">
-            <input type="radio" name="fr2" id="fr2-no"><label for="fr2-no">&nbsp;No</label>
-            &nbsp;&nbsp;&nbsp;
-            <input type="radio" name="fr2" id="fr2-yes"><label for="fr2-yes">&nbsp;Yes</label>
+            <select>
+                <option value="pick-one" selected disabled hidden>Choose</option>
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="poor">Poor</option>
+                <option value="very-poor">Very poor</option>
+            </select>
         </td>
     </tr>
     <tr>
-        <td>
-            The solution correctly prints pages sorted by decreasing in-degree.
-        </td>
+        <td><strong>In-degrees.</strong> The solution correctly prints pages sorted by decreasing in-degree.</td>
         <td class="grade-col">
-            <input type="radio" name="fr3" id="fr3-no"><label for="fr3-no">&nbsp;No</label>
-            &nbsp;&nbsp;&nbsp;
-            <input type="radio" name="fr3" id="fr3-yes"><label for="fr3-yes">&nbsp;Yes</label>
+            <select>
+                <option value="pick-one" selected disabled hidden>Choose</option>
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="poor">Poor</option>
+                <option value="very-poor">Very poor</option>
+            </select>
         </td>
     </tr>
 </table>
@@ -168,88 +174,251 @@ For reviewer
 <strong>Code architecture</strong>
 <table>
     <tr>
-        <td>
-            The code is composed of building blocks that are defined in a understandable, coherent, and elegant manner. For example, the solution may consist of classes to represent domain objects, such as <code>Crawler</code>, <code>Page</code> or <code>Link</code>.
-        </td>
+        <td><strong>Usable.</strong> The crawler API is easy to understand and use. It's possible to invoke the crawler without knowing its implementation details.</td>
         <td class="grade-col">
-            <input type="radio" name="ca1" id="ca1-no"><label for="ca1-no">&nbsp;No</label>
-            &nbsp;&nbsp;&nbsp;
-            <input type="radio" name="ca1" id="ca1-yes"><label for="ca1-yes">&nbsp;Yes</label>
+            <select>
+                <option value="pick-one" selected disabled hidden>Choose</option>
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="poor">Poor</option>
+                <option value="very-poor">Very poor</option>
+            </select>
         </td>
     </tr>
     <tr>
-        <td>
-            The building blocks hide the implementation details. For example, we can change the persistence method of the graph of webpages (memory or in disk) without changing all codebase. 
-        </td>
+        <td><strong>Modular.</strong> The code is divided into small building blocks that are easier to understand, instead of one large block. For example, it uses classes to represent domain objects, such as <code>Crawler</code>, <code>Page</code> or <code>Link</code>.</td>
         <td class="grade-col">
-            <input type="radio" name="ca2" id="ca2-no"><label for="ca2-no">&nbsp;No</label>
-            &nbsp;&nbsp;&nbsp;
-            <input type="radio" name="ca2" id="ca2-yes"><label for="ca2-yes">&nbsp;Yes</label>
+            <select>
+                <option value="pick-one" selected disabled hidden>Choose</option>
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="poor">Poor</option>
+                <option value="very-poor">Very poor</option>
+            </select>
         </td>
     </tr>
     <tr>
-        <td>
-            The building blocks are reusable, and can be easily extended with new functionality. For example, 
-        </td>
+        <td><strong>Understandable.</strong> The purpose of each building block (eg, class or function) is easy to understand. The input and output parameters are natural and appropriate.</td>
         <td class="grade-col">
-            <input type="radio" name="ca3" id="ca3-no"><label for="ca3-no">&nbsp;No</label>
-            &nbsp;&nbsp;&nbsp;
-            <input type="radio" name="ca3" id="ca3-yes"><label for="ca3-yes">&nbsp;Yes</label>
+            <select>
+                <option value="pick-one" selected disabled hidden>Choose</option>
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="poor">Poor</option>
+                <option value="very-poor">Very poor</option>
+            </select>
         </td>
     </tr>
     <tr>
-        <td>
-            The interface of each building block is simple, clean, and natural.
-        </td>
+        <td><strong>Extensible.</strong> It's easy to add new functionality. For example, extending the crawler to parse PDF documents, in addition to HTML documents.</td>
         <td class="grade-col">
-            <input type="radio" name="ca4" id="ca4-no"><label for="ca4-no">&nbsp;No</label>
-            &nbsp;&nbsp;&nbsp;
-            <input type="radio" name="ca4" id="ca4-yes"><label for="ca4-yes">&nbsp;Yes</label>
+            <select>
+                <option value="pick-one" selected disabled hidden>Choose</option>
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="poor">Poor</option>
+                <option value="very-poor">Very poor</option>
+            </select>
         </td>
     </tr>
 </table>
 
 
-<strong>Criteria</strong>
+<strong>Code readability</strong>
 <table>
     <tr>
-        <td>
-            c1
-        </td>
+        <td><strong>Clear naming.</strong> The solution uses clear, self-explanatory names for variables. It's easy to understand the purpose of each function from its name only.</td>
         <td class="grade-col">
-            <input type="radio" name="c1" id="c1-no"><label for="c1-no">&nbsp;No</label>
-            &nbsp;&nbsp;&nbsp;
-            <input type="radio" name="c1" id="c1-yes"><label for="c1-yes">&nbsp;Yes</label>
+            <select>
+                <option value="pick-one" selected disabled hidden>Choose</option>
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="poor">Poor</option>
+                <option value="very-poor">Very poor</option>
+            </select>
         </td>
     </tr>
     <tr>
-        <td>
-            c2
-        </td>
+        <td><strong>Useful documentation.</strong> Each class or function includes a description of its purpose, and how it should be used by another developer. It omits implementation details.</td>
         <td class="grade-col">
-            <input type="radio" name="c2" id="c2-no"><label for="c2-no">&nbsp;No</label>
-            &nbsp;&nbsp;&nbsp;
-            <input type="radio" name="c2" id="c2-yes"><label for="c2-yes">&nbsp;Yes</label>
+            <select>
+                <option value="pick-one" selected disabled hidden>Choose</option>
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="poor">Poor</option>
+                <option value="very-poor">Very poor</option>
+            </select>
         </td>
     </tr>
     <tr>
-        <td>
-            c3
-        </td>
+        <td><strong>Useful comments.</strong> Comments describe <em>why</em>, instead of <em>how</em>. It helps the reader understand underlying design decisions, instead of just re-stating the code.</td>
         <td class="grade-col">
-            <input type="radio" name="c3" id="c3-no"><label for="c3-no">&nbsp;No</label>
-            &nbsp;&nbsp;&nbsp;
-            <input type="radio" name="c3" id="c3-yes"><label for="c3-yes">&nbsp;Yes</label>
+            <select>
+                <option value="pick-one" selected disabled hidden>Choose</option>
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="poor">Poor</option>
+                <option value="very-poor">Very poor</option>
+            </select>
         </td>
     </tr>
     <tr>
-        <td>
-            c4
-        </td>
+        <td><strong>Consistent style.</strong> The code adopts a style that is consistent throughout. For example, indentation and casing are the same in all codebase.</td>
         <td class="grade-col">
-            <input type="radio" name="c4" id="c4-no"><label for="c4-no">&nbsp;No</label>
-            &nbsp;&nbsp;&nbsp;
-            <input type="radio" name="c4" id="c4-yes"><label for="c4-yes">&nbsp;Yes</label>
+            <select>
+                <option value="pick-one" selected disabled hidden>Choose</option>
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="poor">Poor</option>
+                <option value="very-poor">Very poor</option>
+            </select>
+        </td>
+    </tr>
+</table>
+
+
+<strong>Concurrency</strong>
+<table>
+    <tr>
+        <td><strong>Capable.</strong> The solution is able to fetch multiple pages concurrently. For example, it uses multiple processes, threads, or coroutines.</td>
+        <td class="grade-col">
+            <select>
+                <option value="pick-one" selected disabled hidden>Choose</option>
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="poor">Poor</option>
+                <option value="very-poor">Very poor</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td><strong>Adjustable.</strong>The user of the crawler can easily adjust the level of concurrency, for example, the number of workers used.</td>
+        <td class="grade-col">
+            <select>
+                <option value="pick-one" selected disabled hidden>Choose</option>
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="poor">Poor</option>
+                <option value="very-poor">Very poor</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td><strong>Race-free.</strong> The implementation avoids race conditions and deadlocks. For example, when using concurrent workers, the correct mechanisms are used to ensure that each page is only processed once, and the maximum number of pages is respected.</td>
+        <td class="grade-col">
+            <select>
+                <option value="pick-one" selected disabled hidden>Choose</option>
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="poor">Poor</option>
+                <option value="very-poor">Very poor</option>
+            </select>
+        </td>
+    </tr>
+</table>
+
+
+<strong>Robustness</strong>
+<table>
+    <tr>
+        <td><strong>Handles rate limits.</strong> The solution appropriately handles rate-limiting by the server. For example, it fetches pages within each domain by issuing a maximum number of requests per second.</td>
+        <td class="grade-col">
+            <select>
+                <option value="pick-one" selected disabled hidden>Choose</option>
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="poor">Poor</option>
+                <option value="very-poor">Very poor</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td><strong>Handles GET errors.</strong> The solution appropriately handles the various types of errors that can occur while fetching a webpage. For example, it distinguishes between DNS resolution errors, timeouts, 5xx status, and 4xx status, and determines which of these are retryable at a later time.</td>
+        <td class="grade-col">
+            <select>
+                <option value="pick-one" selected disabled hidden>Choose</option>
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="poor">Poor</option>
+                <option value="very-poor">Very poor</option>
+            </select>
+        </td>
+    </tr>
+</table>
+
+
+
+
+<strong>Extras</strong>
+<table>
+    <tr>
+        <td><strong>Automated tests.</strong> The solution implements unit or functional tests.</td>
+        <td class="grade-col">
+            <select>
+                <option value="pick-one" selected disabled hidden>Choose</option>
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="poor">Poor</option>
+                <option value="very-poor">Very poor</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td><strong>Reproducible environment.</strong> The solution includes automated scripts to build the solution and provision all necessary dependencies. For example, it includes a Dockerfile.</td>
+        <td class="grade-col">
+            <select>
+                <option value="pick-one" selected disabled hidden>Choose</option>
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="poor">Poor</option>
+                <option value="very-poor">Very poor</option>
+            </select>
+        </td>
+    </tr>
+</table>
+
+
+<strong>Generality</strong>
+<table>
+    <tr>
+        <td>Content types beyond HTML</td>
+        <td class="grade-col">
+            <select>
+                <option value="pick-one" selected disabled hidden>Choose</option>
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="poor">Poor</option>
+                <option value="very-poor">Very poor</option>
+            </select>
+        </td>
+    </tr>
+</table>
+
+
+<strong>Assumptions and limitations</strong>
+<table>
+    <tr>
+        <td><strong>Assumptions</strong>. The candidate adequately documented the assumptions made. For example, whether duplicate links between pages are counted.</td>
+        <td class="grade-col">
+            <select>
+                <option value="pick-one" selected disabled hidden>Choose</option>
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="poor">Poor</option>
+                <option value="very-poor">Very poor</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td><strong>Limitations</strong>. The candidate clearly identified limitations in the code, and dimensions for future improvement. For example, improved architecture, readability, concurrency, or robustness.</td>
+        <td class="grade-col">
+            <select>
+                <option value="pick-one" selected disabled hidden>Choose</option>
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="poor">Poor</option>
+                <option value="very-poor">Very poor</option>
+            </select>
         </td>
     </tr>
 </table>
