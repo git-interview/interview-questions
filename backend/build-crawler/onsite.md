@@ -47,19 +47,29 @@ permalink: "/backend-questions/build-a-web-crawler/onsite"
 During onsite
 {: .label .label-green }
 
-Our goal is to design a simplified webcrawler. The system should accept an initial webpage to crawl, such as:
+Our goal is to design and implement a simplified webcrawler. The system should accept an initial webpage to crawl, such as:
 
 ```
-https://en.wikipedia.org/wiki/Earth
+https://apple.com
 ```
 
-from which it should progressively discover all linked pages. To limit the amount of work performed by the crawler, it should accept a maximum number of distinct pages to visit, for example, `1000`.
+from which it should progressively discover all linked pages. To limit the amount of work performed by the crawler, it should accept a maximum number of distinct pages to visit, for example, `50`.
 
 As the crawler visits pages, it should build a general representation of how pages link to each other. Upon completion, it should print the complete list of pages visited, sorted by decreasing *in-degree* (ie, how many pages link to it). For example:
 
 ```
-https://en.wikipedia.org/wiki/Sun   18
-https://en.wikipedia.org/wiki/Ion   12
+URL                               IN-DEGREE
+---------------------------------------------
+https://apple.com/us/search           44
+https://www.icloud.com                42
+https://support.apple.com             36
+https://apple.com/us/shop             35
+https://apple.com/ipad                34
+https://apple.com/watch               34
+https://apple.com/tv                  34
+https://apple.com/music               34
+https://apple.com/mac                 34
+https://apple.com/iphone              34
 ...
 ```
 
@@ -67,17 +77,17 @@ https://en.wikipedia.org/wiki/Ion   12
 ---
 
 
-## Question worksheet
+## Questions
 {: .d-inline-block } 
 During onsite
 {: .label .label-green }
 
 <script type="text/javascript" src="{{ "/assets/js/toggle-answer.js" | absolute_url }}"></script>
+<a class="toggle-all-answers-button">Show all answers ▽</a>
 
 
-### Crawler metrics
-
-<a class="toggle-all-answers-button">Show answers ▽</a>
+### Performance metrics
+{: .no_toc }
 
 <ol>
     <li class="question">What metric can we use to benchmark the <em>speed</em> of different crawlers?
@@ -94,32 +104,20 @@ During onsite
     </li>
 </ol>
 
-#### Notes
-<textarea id="w3mission" rows="4" cols="50"></textarea>
-
-#### Grade
-<div class="grade">
-    <input type="radio" name="criterion-1" id="not-applicable-1" checked>
-    <label for="not-applicable-1">Not applicable</label>
-    &nbsp;&nbsp;&nbsp;
-    <input type="radio" name="criterion-1" id="very-poor-1">
-    <label for="very-poor-1">Very poor</label>
-    &nbsp;&nbsp;&nbsp;
-    <input type="radio" name="criterion-1" id="poor-1">
-    <label for="poor-1">Poor</label>
-    &nbsp;&nbsp;&nbsp;
-    <input type="radio" name="criterion-1" id="good-1">
-    <label for="good-1">Good</label>
-    &nbsp;&nbsp;&nbsp;
-    <input type="radio" name="criterion-1" id="excellent-1">
-    <label for="excellent-1">Excellent</label>
-</div>
+<p>Grade:
+    <select>
+        <option selected disabled hidden>Choose</option>
+        <option value="excellent">Excellent</option>
+        <option value="good">Good</option>
+        <option value="poor">Poor</option>
+        <option value="very-poor">Very poor</option>
+    </select>
+</p>
 
 ---
 
 ### Concurrency
-
-<a class="toggle-all-answers-button">Show answers ▽</a>
+{: .no_toc }
 
 <ol>
     <li class="question">Is the crawler we previously designed capable of fetching multiple webpages in parallel?
@@ -144,27 +142,15 @@ During onsite
     </li>
 </ol>
 
-#### Notes
-<textarea id="w3mission" rows="4" cols="50"></textarea>
-
-#### Grade
-<div class="grade">
-    <input type="radio" name="criterion" id="not-applicable" checked>
-    <label for="not-applicable">Not applicable</label>
-    &nbsp;&nbsp;&nbsp;
-    <input type="radio" name="criterion" id="very-poor">
-    <label for="very-poor">Very poor</label>
-    &nbsp;&nbsp;&nbsp;
-    <input type="radio" name="criterion" id="poor">
-    <label for="poor">Poor</label>
-    &nbsp;&nbsp;&nbsp;
-    <input type="radio" name="criterion" id="good">
-    <label for="good">Good</label>
-    &nbsp;&nbsp;&nbsp;
-    <input type="radio" name="criterion" id="excellent">
-    <label for="excellent">Excellent</label>
-</div>
-
+<p>Grade:
+    <select>
+        <option selected disabled hidden>Choose</option>
+        <option value="excellent">Excellent</option>
+        <option value="good">Good</option>
+        <option value="poor">Poor</option>
+        <option value="very-poor">Very poor</option>
+    </select>
+</p>
 
 ---
 
@@ -278,15 +264,6 @@ During onsite
     <span class="toggle-answer-icon">▽</span>
     <div class="answer">Answer: This is the answer to the question this is the answer to the question this is the qnswer this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this this is the answer this.</div>
     </div>
-
-
----
-
-
-## Grading rubric
-{: .d-inline-block } 
-After onsite
-{: .label .label-yellow }
 
 
 --- 

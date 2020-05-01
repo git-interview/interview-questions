@@ -136,7 +136,7 @@ For reviewer
         <td><strong>Initial page.</strong> We can specify an initial webpage to crawl, for example, <code>https://apple.com</code>.</td>
         <td class="grade-col">
             <select>
-                <option value="pick-one" selected disabled hidden>Choose</option>
+                <option selected disabled hidden>Choose</option>
                 <option value="excellent">Excellent</option>
                 <option value="good">Good</option>
                 <option value="poor">Poor</option>
@@ -148,7 +148,7 @@ For reviewer
         <td><strong>Max pages.</strong> We can specify the maximum number of pages to crawl, eg, <code>10</code>. This limit is strictly respected.</td>
         <td class="grade-col">
             <select>
-                <option value="pick-one" selected disabled hidden>Choose</option>
+                <option selected disabled hidden>Choose</option>
                 <option value="excellent">Excellent</option>
                 <option value="good">Good</option>
                 <option value="poor">Poor</option>
@@ -160,7 +160,7 @@ For reviewer
         <td><strong>In-degrees.</strong> The solution correctly prints pages sorted by decreasing in-degree.</td>
         <td class="grade-col">
             <select>
-                <option value="pick-one" selected disabled hidden>Choose</option>
+                <option selected disabled hidden>Choose</option>
                 <option value="excellent">Excellent</option>
                 <option value="good">Good</option>
                 <option value="poor">Poor</option>
@@ -177,7 +177,7 @@ For reviewer
         <td><strong>Usable.</strong> The crawler API is easy to understand and use. It's possible to invoke the crawler without knowing its implementation details.</td>
         <td class="grade-col">
             <select>
-                <option value="pick-one" selected disabled hidden>Choose</option>
+                <option selected disabled hidden>Choose</option>
                 <option value="excellent">Excellent</option>
                 <option value="good">Good</option>
                 <option value="poor">Poor</option>
@@ -189,7 +189,7 @@ For reviewer
         <td><strong>Modular.</strong> The code is divided into small building blocks that are easier to understand, instead of one large block. For example, it uses classes to represent domain objects, such as <code>Crawler</code>, <code>Page</code> or <code>Link</code>.</td>
         <td class="grade-col">
             <select>
-                <option value="pick-one" selected disabled hidden>Choose</option>
+                <option selected disabled hidden>Choose</option>
                 <option value="excellent">Excellent</option>
                 <option value="good">Good</option>
                 <option value="poor">Poor</option>
@@ -201,7 +201,7 @@ For reviewer
         <td><strong>Understandable.</strong> The purpose of each building block (eg, class or function) is easy to understand. The input and output parameters are natural and appropriate.</td>
         <td class="grade-col">
             <select>
-                <option value="pick-one" selected disabled hidden>Choose</option>
+                <option selected disabled hidden>Choose</option>
                 <option value="excellent">Excellent</option>
                 <option value="good">Good</option>
                 <option value="poor">Poor</option>
@@ -213,7 +213,7 @@ For reviewer
         <td><strong>Extensible.</strong> It's easy to add new functionality. For example, extending the crawler to parse PDF documents, in addition to HTML documents.</td>
         <td class="grade-col">
             <select>
-                <option value="pick-one" selected disabled hidden>Choose</option>
+                <option selected disabled hidden>Choose</option>
                 <option value="excellent">Excellent</option>
                 <option value="good">Good</option>
                 <option value="poor">Poor</option>
@@ -230,7 +230,7 @@ For reviewer
         <td><strong>Clear naming.</strong> The solution uses clear, self-explanatory names for variables. It's easy to understand the purpose of each function from its name only.</td>
         <td class="grade-col">
             <select>
-                <option value="pick-one" selected disabled hidden>Choose</option>
+                <option selected disabled hidden>Choose</option>
                 <option value="excellent">Excellent</option>
                 <option value="good">Good</option>
                 <option value="poor">Poor</option>
@@ -242,7 +242,7 @@ For reviewer
         <td><strong>Useful documentation.</strong> Each class or function includes a description of its purpose, and how it should be used by another developer. It omits implementation details.</td>
         <td class="grade-col">
             <select>
-                <option value="pick-one" selected disabled hidden>Choose</option>
+                <option selected disabled hidden>Choose</option>
                 <option value="excellent">Excellent</option>
                 <option value="good">Good</option>
                 <option value="poor">Poor</option>
@@ -254,7 +254,7 @@ For reviewer
         <td><strong>Useful comments.</strong> Comments describe <em>why</em>, instead of <em>how</em>. It helps the reader understand underlying design decisions, instead of just re-stating the code.</td>
         <td class="grade-col">
             <select>
-                <option value="pick-one" selected disabled hidden>Choose</option>
+                <option selected disabled hidden>Choose</option>
                 <option value="excellent">Excellent</option>
                 <option value="good">Good</option>
                 <option value="poor">Poor</option>
@@ -266,7 +266,7 @@ For reviewer
         <td><strong>Consistent style.</strong> The code adopts a style that is consistent throughout. For example, indentation and casing are the same in all codebase.</td>
         <td class="grade-col">
             <select>
-                <option value="pick-one" selected disabled hidden>Choose</option>
+                <option selected disabled hidden>Choose</option>
                 <option value="excellent">Excellent</option>
                 <option value="good">Good</option>
                 <option value="poor">Poor</option>
@@ -283,7 +283,7 @@ For reviewer
         <td><strong>Capable.</strong> The solution is able to fetch multiple pages concurrently. For example, it uses multiple processes, threads, or coroutines.</td>
         <td class="grade-col">
             <select>
-                <option value="pick-one" selected disabled hidden>Choose</option>
+                <option selected disabled hidden>Choose</option>
                 <option value="excellent">Excellent</option>
                 <option value="good">Good</option>
                 <option value="poor">Poor</option>
@@ -295,7 +295,7 @@ For reviewer
         <td><strong>Adjustable.</strong>The user of the crawler can easily adjust the level of concurrency, for example, the number of workers used.</td>
         <td class="grade-col">
             <select>
-                <option value="pick-one" selected disabled hidden>Choose</option>
+                <option selected disabled hidden>Choose</option>
                 <option value="excellent">Excellent</option>
                 <option value="good">Good</option>
                 <option value="poor">Poor</option>
@@ -307,7 +307,7 @@ For reviewer
         <td><strong>Race-free.</strong> The implementation avoids race conditions and deadlocks. For example, when using concurrent workers, the correct mechanisms are used to ensure that each page is only processed once, and the maximum number of pages is respected.</td>
         <td class="grade-col">
             <select>
-                <option value="pick-one" selected disabled hidden>Choose</option>
+                <option selected disabled hidden>Choose</option>
                 <option value="excellent">Excellent</option>
                 <option value="good">Good</option>
                 <option value="poor">Poor</option>
@@ -324,7 +324,7 @@ For reviewer
         <td><strong>Handles rate limits.</strong> The solution appropriately handles rate-limiting by the server. For example, it fetches pages within each domain by issuing a maximum number of requests per second.</td>
         <td class="grade-col">
             <select>
-                <option value="pick-one" selected disabled hidden>Choose</option>
+                <option selected disabled hidden>Choose</option>
                 <option value="excellent">Excellent</option>
                 <option value="good">Good</option>
                 <option value="poor">Poor</option>
@@ -336,7 +336,7 @@ For reviewer
         <td><strong>Handles GET errors.</strong> The solution appropriately handles the various types of errors that can occur while fetching a webpage. For example, it distinguishes between DNS resolution errors, timeouts, 5xx status, and 4xx status, and determines which of these are retryable at a later time.</td>
         <td class="grade-col">
             <select>
-                <option value="pick-one" selected disabled hidden>Choose</option>
+                <option selected disabled hidden>Choose</option>
                 <option value="excellent">Excellent</option>
                 <option value="good">Good</option>
                 <option value="poor">Poor</option>
@@ -355,7 +355,7 @@ For reviewer
         <td><strong>Automated tests.</strong> The solution implements unit or functional tests.</td>
         <td class="grade-col">
             <select>
-                <option value="pick-one" selected disabled hidden>Choose</option>
+                <option selected disabled hidden>Choose</option>
                 <option value="excellent">Excellent</option>
                 <option value="good">Good</option>
                 <option value="poor">Poor</option>
@@ -367,7 +367,7 @@ For reviewer
         <td><strong>Reproducible environment.</strong> The solution includes automated scripts to build the solution and provision all necessary dependencies. For example, it includes a Dockerfile.</td>
         <td class="grade-col">
             <select>
-                <option value="pick-one" selected disabled hidden>Choose</option>
+                <option selected disabled hidden>Choose</option>
                 <option value="excellent">Excellent</option>
                 <option value="good">Good</option>
                 <option value="poor">Poor</option>
@@ -384,7 +384,7 @@ For reviewer
         <td>Content types beyond HTML</td>
         <td class="grade-col">
             <select>
-                <option value="pick-one" selected disabled hidden>Choose</option>
+                <option selected disabled hidden>Choose</option>
                 <option value="excellent">Excellent</option>
                 <option value="good">Good</option>
                 <option value="poor">Poor</option>
@@ -401,7 +401,7 @@ For reviewer
         <td><strong>Assumptions</strong>. The candidate adequately documented the assumptions made. For example, whether duplicate links between pages are counted.</td>
         <td class="grade-col">
             <select>
-                <option value="pick-one" selected disabled hidden>Choose</option>
+                <option selected disabled hidden>Choose</option>
                 <option value="excellent">Excellent</option>
                 <option value="good">Good</option>
                 <option value="poor">Poor</option>
@@ -413,7 +413,7 @@ For reviewer
         <td><strong>Limitations</strong>. The candidate clearly identified limitations in the code, and dimensions for future improvement. For example, improved architecture, readability, concurrency, or robustness.</td>
         <td class="grade-col">
             <select>
-                <option value="pick-one" selected disabled hidden>Choose</option>
+                <option selected disabled hidden>Choose</option>
                 <option value="excellent">Excellent</option>
                 <option value="good">Good</option>
                 <option value="poor">Poor</option>
