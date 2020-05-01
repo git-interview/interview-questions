@@ -18,11 +18,8 @@ permalink: "/backend-questions/build-a-web-crawler/take-home"
     <dt>Duration</dt>
     <dd>3 hours</dd>
 
-    <dt>Difficulty</dt>
-    <dd>Medium</dd>
-
     <dt>Topics</dt>
-    <dd>Distributed Systems</dd>
+    <dd>Distributed Systems, Data Structures, Concurrency</dd>
 
     <dt>Format</dt>
     <dd>Take-home</dd>
@@ -88,15 +85,6 @@ https://apple.com/iphone              34
 Spend a maximum of 3 hours.
 
 
-### Grading criteria
-{: .no_toc }
-
-Your submission will be graded by an engineer according to the following criteria:
-
-* Code quality
-* Design decisions
-
-
 ---
 
 
@@ -137,10 +125,10 @@ For reviewer
         <td class="grade-col">
             <select>
                 <option selected disabled hidden>Choose</option>
-                <option value="excellent">Excellent</option>
-                <option value="good">Good</option>
-                <option value="poor">Poor</option>
-                <option value="very-poor">Very poor</option>
+                <option>Excellent</option>
+                <option>Good</option>
+                <option>Poor</option>
+                <option>Very poor</option>
             </select>
         </td>
     </tr>
@@ -149,10 +137,10 @@ For reviewer
         <td class="grade-col">
             <select>
                 <option selected disabled hidden>Choose</option>
-                <option value="excellent">Excellent</option>
-                <option value="good">Good</option>
-                <option value="poor">Poor</option>
-                <option value="very-poor">Very poor</option>
+                <option>Excellent</option>
+                <option>Good</option>
+                <option>Poor</option>
+                <option>Very poor</option>
             </select>
         </td>
     </tr>
@@ -161,10 +149,10 @@ For reviewer
         <td class="grade-col">
             <select>
                 <option selected disabled hidden>Choose</option>
-                <option value="excellent">Excellent</option>
-                <option value="good">Good</option>
-                <option value="poor">Poor</option>
-                <option value="very-poor">Very poor</option>
+                <option>Excellent</option>
+                <option>Good</option>
+                <option>Poor</option>
+                <option>Very poor</option>
             </select>
         </td>
     </tr>
@@ -178,10 +166,10 @@ For reviewer
         <td class="grade-col">
             <select>
                 <option selected disabled hidden>Choose</option>
-                <option value="excellent">Excellent</option>
-                <option value="good">Good</option>
-                <option value="poor">Poor</option>
-                <option value="very-poor">Very poor</option>
+                <option>Excellent</option>
+                <option>Good</option>
+                <option>Poor</option>
+                <option>Very poor</option>
             </select>
         </td>
     </tr>
@@ -190,10 +178,10 @@ For reviewer
         <td class="grade-col">
             <select>
                 <option selected disabled hidden>Choose</option>
-                <option value="excellent">Excellent</option>
-                <option value="good">Good</option>
-                <option value="poor">Poor</option>
-                <option value="very-poor">Very poor</option>
+                <option>Excellent</option>
+                <option>Good</option>
+                <option>Poor</option>
+                <option>Very poor</option>
             </select>
         </td>
     </tr>
@@ -202,10 +190,10 @@ For reviewer
         <td class="grade-col">
             <select>
                 <option selected disabled hidden>Choose</option>
-                <option value="excellent">Excellent</option>
-                <option value="good">Good</option>
-                <option value="poor">Poor</option>
-                <option value="very-poor">Very poor</option>
+                <option>Excellent</option>
+                <option>Good</option>
+                <option>Poor</option>
+                <option>Very poor</option>
             </select>
         </td>
     </tr>
@@ -214,10 +202,10 @@ For reviewer
         <td class="grade-col">
             <select>
                 <option selected disabled hidden>Choose</option>
-                <option value="excellent">Excellent</option>
-                <option value="good">Good</option>
-                <option value="poor">Poor</option>
-                <option value="very-poor">Very poor</option>
+                <option>Excellent</option>
+                <option>Good</option>
+                <option>Poor</option>
+                <option>Very poor</option>
             </select>
         </td>
     </tr>
@@ -231,10 +219,10 @@ For reviewer
         <td class="grade-col">
             <select>
                 <option selected disabled hidden>Choose</option>
-                <option value="excellent">Excellent</option>
-                <option value="good">Good</option>
-                <option value="poor">Poor</option>
-                <option value="very-poor">Very poor</option>
+                <option>Excellent</option>
+                <option>Good</option>
+                <option>Poor</option>
+                <option>Very poor</option>
             </select>
         </td>
     </tr>
@@ -243,10 +231,10 @@ For reviewer
         <td class="grade-col">
             <select>
                 <option selected disabled hidden>Choose</option>
-                <option value="excellent">Excellent</option>
-                <option value="good">Good</option>
-                <option value="poor">Poor</option>
-                <option value="very-poor">Very poor</option>
+                <option>Excellent</option>
+                <option>Good</option>
+                <option>Poor</option>
+                <option>Very poor</option>
             </select>
         </td>
     </tr>
@@ -255,10 +243,10 @@ For reviewer
         <td class="grade-col">
             <select>
                 <option selected disabled hidden>Choose</option>
-                <option value="excellent">Excellent</option>
-                <option value="good">Good</option>
-                <option value="poor">Poor</option>
-                <option value="very-poor">Very poor</option>
+                <option>Excellent</option>
+                <option>Good</option>
+                <option>Poor</option>
+                <option>Very poor</option>
             </select>
         </td>
     </tr>
@@ -267,10 +255,10 @@ For reviewer
         <td class="grade-col">
             <select>
                 <option selected disabled hidden>Choose</option>
-                <option value="excellent">Excellent</option>
-                <option value="good">Good</option>
-                <option value="poor">Poor</option>
-                <option value="very-poor">Very poor</option>
+                <option>Excellent</option>
+                <option>Good</option>
+                <option>Poor</option>
+                <option>Very poor</option>
             </select>
         </td>
     </tr>
@@ -284,10 +272,10 @@ For reviewer
         <td class="grade-col">
             <select>
                 <option selected disabled hidden>Choose</option>
-                <option value="excellent">Excellent</option>
-                <option value="good">Good</option>
-                <option value="poor">Poor</option>
-                <option value="very-poor">Very poor</option>
+                <option>Excellent</option>
+                <option>Good</option>
+                <option>Poor</option>
+                <option>Very poor</option>
             </select>
         </td>
     </tr>
@@ -296,10 +284,10 @@ For reviewer
         <td class="grade-col">
             <select>
                 <option selected disabled hidden>Choose</option>
-                <option value="excellent">Excellent</option>
-                <option value="good">Good</option>
-                <option value="poor">Poor</option>
-                <option value="very-poor">Very poor</option>
+                <option>Excellent</option>
+                <option>Good</option>
+                <option>Poor</option>
+                <option>Very poor</option>
             </select>
         </td>
     </tr>
@@ -308,10 +296,10 @@ For reviewer
         <td class="grade-col">
             <select>
                 <option selected disabled hidden>Choose</option>
-                <option value="excellent">Excellent</option>
-                <option value="good">Good</option>
-                <option value="poor">Poor</option>
-                <option value="very-poor">Very poor</option>
+                <option>Excellent</option>
+                <option>Good</option>
+                <option>Poor</option>
+                <option>Very poor</option>
             </select>
         </td>
     </tr>
@@ -325,10 +313,10 @@ For reviewer
         <td class="grade-col">
             <select>
                 <option selected disabled hidden>Choose</option>
-                <option value="excellent">Excellent</option>
-                <option value="good">Good</option>
-                <option value="poor">Poor</option>
-                <option value="very-poor">Very poor</option>
+                <option>Excellent</option>
+                <option>Good</option>
+                <option>Poor</option>
+                <option>Very poor</option>
             </select>
         </td>
     </tr>
@@ -337,58 +325,10 @@ For reviewer
         <td class="grade-col">
             <select>
                 <option selected disabled hidden>Choose</option>
-                <option value="excellent">Excellent</option>
-                <option value="good">Good</option>
-                <option value="poor">Poor</option>
-                <option value="very-poor">Very poor</option>
-            </select>
-        </td>
-    </tr>
-</table>
-
-
-
-
-<strong>Extras</strong>
-<table>
-    <tr>
-        <td><strong>Automated tests.</strong> The solution implements unit or functional tests.</td>
-        <td class="grade-col">
-            <select>
-                <option selected disabled hidden>Choose</option>
-                <option value="excellent">Excellent</option>
-                <option value="good">Good</option>
-                <option value="poor">Poor</option>
-                <option value="very-poor">Very poor</option>
-            </select>
-        </td>
-    </tr>
-    <tr>
-        <td><strong>Reproducible environment.</strong> The solution includes automated scripts to build the solution and provision all necessary dependencies. For example, it includes a Dockerfile.</td>
-        <td class="grade-col">
-            <select>
-                <option selected disabled hidden>Choose</option>
-                <option value="excellent">Excellent</option>
-                <option value="good">Good</option>
-                <option value="poor">Poor</option>
-                <option value="very-poor">Very poor</option>
-            </select>
-        </td>
-    </tr>
-</table>
-
-
-<strong>Generality</strong>
-<table>
-    <tr>
-        <td>Content types beyond HTML</td>
-        <td class="grade-col">
-            <select>
-                <option selected disabled hidden>Choose</option>
-                <option value="excellent">Excellent</option>
-                <option value="good">Good</option>
-                <option value="poor">Poor</option>
-                <option value="very-poor">Very poor</option>
+                <option>Excellent</option>
+                <option>Good</option>
+                <option>Poor</option>
+                <option>Very poor</option>
             </select>
         </td>
     </tr>
@@ -402,10 +342,10 @@ For reviewer
         <td class="grade-col">
             <select>
                 <option selected disabled hidden>Choose</option>
-                <option value="excellent">Excellent</option>
-                <option value="good">Good</option>
-                <option value="poor">Poor</option>
-                <option value="very-poor">Very poor</option>
+                <option>Excellent</option>
+                <option>Good</option>
+                <option>Poor</option>
+                <option>Very poor</option>
             </select>
         </td>
     </tr>
@@ -414,10 +354,39 @@ For reviewer
         <td class="grade-col">
             <select>
                 <option selected disabled hidden>Choose</option>
-                <option value="excellent">Excellent</option>
-                <option value="good">Good</option>
-                <option value="poor">Poor</option>
-                <option value="very-poor">Very poor</option>
+                <option>Excellent</option>
+                <option>Good</option>
+                <option>Poor</option>
+                <option>Very poor</option>
+            </select>
+        </td>
+    </tr>
+</table>
+
+
+<strong>Extras</strong>
+<table>
+    <tr>
+        <td><strong>Automated tests.</strong> The solution implements unit or functional tests.</td>
+        <td class="grade-col">
+            <select>
+                <option selected disabled hidden>Choose</option>
+                <option>Excellent</option>
+                <option>Good</option>
+                <option>Poor</option>
+                <option>Very poor</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td><strong>Reproducible environment.</strong> The solution includes automated scripts to build the solution and provision all necessary dependencies. For example, it includes a Dockerfile.</td>
+        <td class="grade-col">
+            <select>
+                <option selected disabled hidden>Choose</option>
+                <option>Excellent</option>
+                <option>Good</option>
+                <option>Poor</option>
+                <option>Very poor</option>
             </select>
         </td>
     </tr>
