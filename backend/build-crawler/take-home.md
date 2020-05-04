@@ -71,6 +71,7 @@ https://apple.com/iphone              34
 ...
 ```
 
+
 ### Tasks
 {: .no_toc }
 
@@ -118,7 +119,9 @@ For reviewer
 {: .label .label-yellow }
 
 
-<strong>Functional requirements</strong>
+### Functional requirements
+{: .no_toc }
+
 <table>
     <tr>
         <td><strong>Initial page.</strong> We can specify an initial webpage to crawl, for example, <code>https://apple.com</code>.</td>
@@ -159,7 +162,9 @@ For reviewer
 </table>
 
 
-<strong>Code architecture</strong>
+### Code architecture
+{: .no_toc }
+
 <table>
     <tr>
         <td><strong>Usable.</strong> The crawler API is easy to understand and use. It's possible to invoke the crawler without knowing its implementation details.</td>
@@ -212,7 +217,9 @@ For reviewer
 </table>
 
 
-<strong>Code readability</strong>
+### Code readability
+{: .no_toc }
+
 <table>
     <tr>
         <td><strong>Clear naming.</strong> The solution uses clear, self-explanatory names for variables. It's easy to understand the purpose of each function from its name only.</td>
@@ -265,7 +272,9 @@ For reviewer
 </table>
 
 
-<strong>Concurrency</strong>
+### Concurrency
+{: .no_toc }
+
 <table>
     <tr>
         <td><strong>Capable.</strong> The solution is able to fetch multiple pages concurrently. For example, it uses multiple processes, threads, or coroutines.</td>
@@ -306,7 +315,9 @@ For reviewer
 </table>
 
 
-<strong>Robustness</strong>
+### Robustness
+{: .no_toc }
+
 <table>
     <tr>
         <td><strong>Handles rate limits.</strong> The solution appropriately handles rate-limiting by the server. For example, it fetches pages within each domain by issuing a maximum number of requests per second.</td>
@@ -335,7 +346,9 @@ For reviewer
 </table>
 
 
-<strong>Assumptions and limitations</strong>
+### Assumptions and limitations
+{: .no_toc }
+
 <table>
     <tr>
         <td><strong>Assumptions</strong>. The candidate adequately documented the assumptions made. For example, whether duplicate links between pages are counted.</td>
@@ -364,7 +377,9 @@ For reviewer
 </table>
 
 
-<strong>Extras</strong>
+### Extras
+{: .no_toc }
+
 <table>
     <tr>
         <td><strong>Automated tests.</strong> The solution implements unit or functional tests.</td>
