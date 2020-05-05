@@ -84,8 +84,7 @@ During onsite
 <a class="toggle-all-answers-button">Show all answers ▽</a>
 
 
-### Crawler operation
-{: .no_toc }
+### Design
 
 <ol>
     <li class="question">Describe the sequence of operations the crawler needs to perform, to produce the desired output.
@@ -104,7 +103,7 @@ During onsite
         <span class="toggle-answer-icon">▽</span>
         <div class="answer">Answer: Here</div>
     </li>
-    <li class="question">Sketch a block diagram for the crawler that illustrates the different systems involved.
+    <li class="question">Draw a block diagram for the crawler that illustrates the different systems involved.
         <span class="toggle-answer-icon">▽</span>
         <div class="answer">Answer: Block diagram</div>
     </li>
@@ -117,13 +116,13 @@ During onsite
         <option value="good">Good</option>
         <option value="poor">Poor</option>
         <option value="very-poor">Very poor</option>
+        <option value="did-not-discuss">Did not discuss</option>
     </select>
 </p>
 
 ---
 
-### Performance metrics
-{: .no_toc }
+### Performance
 
 <ol>
     <li class="question">What metric can we use to benchmark the <em>speed</em> of different crawlers?
@@ -134,7 +133,7 @@ During onsite
         <span class="toggle-answer-icon">▽</span>
         <div class="answer">Answer: Here</div>
     </li> 
-    <li class="question">What design changes could we make to improve the performance of the crawler we previously designed?
+    <li class="question">What changes can we make to the previous design to improve the crawler's performance?
         <span class="toggle-answer-icon">▽</span>
         <div class="answer">Answer: Here</div>
     </li>
@@ -147,36 +146,28 @@ During onsite
         <option value="good">Good</option>
         <option value="poor">Poor</option>
         <option value="very-poor">Very poor</option>
+        <option value="did-not-discuss">Did not discuss</option>
     </select>
 </p>
 
 ---
 
 ### Concurrency
-{: .no_toc }
 
 <ol>
-    <li class="question">Is the crawler we previously designed capable of fetching multiple webpages in parallel?
+    <li class="question">Is the crawler we previously designed capable of fetching multiple webpages simultaneously? Why is such capability important?
     <span class="toggle-answer-icon">▽</span>
     <div class="answer">Answer: Here</div>
     </li>
-    <li class="question">How would you extend the design to allow parallel fetching?
+    <li class="question">How would you extend the design to enable parallel fetching? Can this be accomplished using a single thread of execution?
         <span class="toggle-answer-icon">▽</span>
         <div class="answer">Answer: Here</div>
     </li> 
-    <li class="question">How would you implement parallel fetching using <em>multiple processes</em>? <em>Single process</em>? <em>Single thread</em>?
+    <li class="question">How can the crawler avoid fetching the same URL more than once? Is the proposed mechanism free from race conditions?
         <span class="toggle-answer-icon">▽</span>
         <div class="answer">Answer: Here</div>
     </li>
-    <li class="question">How can the crawler enforce that the maximum number of distinct pages to visit is, say, <code class="highlighter-rouge">1000</code>? Are there situations where the crawler stops before reaching 1000 pages?
-        <span class="toggle-answer-icon">▽</span>
-        <div class="answer">Answer: Here</div>
-    </li>
-    <li class="question">How can the crawler avoid crawling the same URL more than once?
-        <span class="toggle-answer-icon">▽</span>
-        <div class="answer">Answer: Here</div>
-    </li>
-    <li class="question">How would the crawler handle query parameters in a URL?
+    <li class="question">How can the crawler enforce that the maximum number of distinct pages to visit is, say, <code>50</code>? Is the proposed mechanism free from race conditions? Are there situations where the crawler stops before reaching the limit of <code>50</code> pages?
         <span class="toggle-answer-icon">▽</span>
         <div class="answer">Answer: Here</div>
     </li>
@@ -189,28 +180,28 @@ During onsite
         <option value="good">Good</option>
         <option value="poor">Poor</option>
         <option value="very-poor">Very poor</option>
+        <option value="did-not-discuss">Did not discuss</option>
     </select>
 </p>
 
 ---
 
-### Robustness to errors
-{: .no_toc }
+### Robustness
 
 <ol>
-    <li class="question">What types of errors can the crawler encounter while navigating webpages?
+    <li class="question">What types of errors can the crawler encounter while processing webpages?
         <span class="toggle-answer-icon">▽</span>
         <div class="answer">Answer: Here</div>
     </li>
-    <li class="question">How can we handle 4xx errors?
+    <li class="question">How can the crawler handle rate limiting by servers? How would you modify the previous design to support this functionality?
         <span class="toggle-answer-icon">▽</span>
         <div class="answer">Answer: Here</div>
     </li>
-    <li class="question">How can we handle 5xx errors?
+    <li class="question">How can the crawler handle <code>4xx</code> errors? How about <code>5xx</code> errors? How about DNS resolution errors?
         <span class="toggle-answer-icon">▽</span>
         <div class="answer">Answer: Here</div>
     </li>
-    <li class="question">How can we handle DNS errors?
+    <li class="question">How can the crawler handle query parameters in a URL, such as <code>https://www.apple.com?view=false</code>?
         <span class="toggle-answer-icon">▽</span>
         <div class="answer">Answer: Here</div>
     </li>
@@ -223,16 +214,16 @@ During onsite
         <option value="good">Good</option>
         <option value="poor">Poor</option>
         <option value="very-poor">Very poor</option>
+        <option value="did-not-discuss">Did not discuss</option>
     </select>
 </p>
 
 ---
 
-### Data structures
-{: .no_toc }
+### Storage
 
 <ol>
-    <li class="question">Where can the crawler store this data structure?
+    <li class="question">As the crawler visits pages, it builds a representation of how pages link to each other. Where can the crawler store this data structure?
         <span class="toggle-answer-icon">▽</span>
         <div class="answer">Answer: Here</div>
     </li>
@@ -257,28 +248,7 @@ During onsite
         <option value="good">Good</option>
         <option value="poor">Poor</option>
         <option value="very-poor">Very poor</option>
-    </select>
-</p>
-
----
-
-### Topic
-{: .no_toc }
-
-<ol>
-    <li class="question">Question
-        <span class="toggle-answer-icon">▽</span>
-        <div class="answer">Answer: Here</div>
-    </li>
-</ol>
-
-<p>Grade:
-    <select>
-        <option selected disabled hidden>Choose</option>
-        <option value="excellent">Excellent</option>
-        <option value="good">Good</option>
-        <option value="poor">Poor</option>
-        <option value="very-poor">Very poor</option>
+        <option value="did-not-discuss">Did not discuss</option>
     </select>
 </p>
 
