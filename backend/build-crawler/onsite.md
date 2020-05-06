@@ -119,7 +119,10 @@ During onsite
         <div class="question">Draw a block diagram for the crawler that illustrates the different systems involved.
             <span class="toggle-answer-icon">▽</span>
         </div>
-        <div class="answer">Answer: Block diagram</div>
+        <div class="answer">
+            <h4>Answer</h4>
+            <img src="/backend/build-crawler/block-diagram.png" />
+        </div>
     </li>
 </ol>
 
