@@ -4,18 +4,25 @@
     cursor: pointer;
 }
 
-.question {
-    margin-bottom: 7px;
-    cursor: pointer;
+.question-answer {
+    margin-bottom: 10px;
 
-    .toggle-answer-icon {
-        color: #DDDDDD;
+    .question {
+        cursor: pointer;
+        .toggle-answer-icon {
+            color: #DDDDDD;
+        }
     }
-}
-
-.answer {
-    color: red;
-    display: none;
+    .answer {
+        margin-bottom: 25px;
+        display: none;
+    }
+    .answer, .answer h4, .answer h5 {
+        color: #ff5722;
+    }
+    .answer h5 {
+        font-weight: 600;
+    }
 }
 
 .solution {

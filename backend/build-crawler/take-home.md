@@ -22,7 +22,7 @@ permalink: "/backend-questions/build-a-web-crawler/take-home"
     <dd>Distributed Systems, Data Structures, Concurrency</dd>
 
     <dt>Format</dt>
-    <dd>Take-home</dd>
+    <dd>Take-home assessment</dd>
 </dl>
 
 

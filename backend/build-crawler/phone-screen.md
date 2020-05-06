@@ -18,14 +18,11 @@ permalink: "/backend-questions/build-a-web-crawler/phone-screen"
     <dt>Duration</dt>
     <dd>30 mins</dd>
 
-    <dt>Difficulty</dt>
-    <dd>Adaptive</dd>
-
     <dt>Topics</dt>
     <dd>Distributed Systems</dd>
 
     <dt>Format</dt>
-    <dd>Phone Screen</dd>
+    <dd>Phone screen</dd>
 </dl>
 
 
@@ -50,7 +47,7 @@ Write from scratch, in any language.
 
 ## Discussion
 
-<script type="text/javascript" src="{{ "/assets/js/toggle-answer.js" | absolute_url }}"></script>
+<script type="text/javascript" src="{{ "/assets/js/toggle-all-answers.js" | absolute_url }}"></script>
 <a class="toggle-all-answers-button">Show all answers ▽</a>
 
 Scenario: crawler of webpages

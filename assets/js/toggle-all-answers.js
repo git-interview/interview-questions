@@ -9,14 +9,14 @@ document.addEventListener("DOMContentLoaded", function(){
   const showAnswer = function(question) {
     var icon = question.querySelector('.toggle-answer-icon')
     icon.textContent = toggleAnswerIcon[1]
-    var answer = question.querySelector('.answer')
+    var answer = question.parentElement.querySelector('.answer')
     answer.style.display = 'block'
   }
 
   const hideAnswer = function(question) {
     var icon = question.querySelector('.toggle-answer-icon')
     icon.textContent = toggleAnswerIcon[0]
-    var answer = question.querySelector('.answer')
+    var answer = question.parentElement.querySelector('.answer')
     answer.style.display = 'none'
   }
 
