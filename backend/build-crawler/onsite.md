@@ -96,22 +96,25 @@ During onsite
             <h5>Data structures</h5>
             <p>
                 <ul>
-                    <li>A queue, for keeping track of the page URLs to crawl next.</li>
-                    <li>A database, for keeping track of the crawled webgraph: the nodes are `pages`, and the edges are `links`.</li>
+                    <li>A <em>queue</em> to keep track of the page URLs to crawl next.</li>
+                    <li>A <em>database</em> to store the structure of the crawled graph. The graph nodes are pages, and the graph edges are links.</li>
                 </ul>
             </p>
             <h5>Algorithm</h5>
             <p>
-                <em>Phase 1: Crawl.</em> We use a <em>queue</em> to keep track of the page URLs to crawl next, and one <em>worker</em> (or many workers, in a concurrent solution) that operates as follows:
+                <u>Phase 1: Crawl.</u> We use one (or more) workers that operate as follows:
                 <ol>
-                    <li>Retrieves a page URL from the queue.</li>
-                    <li>Fetches page from the server.</li>
-                    <li>Parses the HTML to identify URLs of outbound links.</li>
-                    <li>Queues outbound links, for later crawling.</li>
-                    <li>Saves outbound links to a DB, for later computing graph statistics.</li>
+                    <li>Retrieve a page URL from the queue.</li>
+                    <li>Fetch page from the server.</li>
+                    <li>Parse the HTML to identify URLs of outbound links.</li>
+                    <li>Queue outbound links, for later crawling.</li>
+                    <li>Save outbound links to the database, for later computing graph statistics.</li>
                 </ol>
                 <br>
-                <em>Phase 2: Compute statistics.</em> To obtain the desired in-degree statistics, we group by destination URL, count how many pages link to each destination, and sort by decreasing count.
+                <u>Phase 2: Compute statistics.</u> To obtain the desired in-degree statistics, we group the list of edges by destination URL, count how many pages link to each destination, and sort by decreasing count.
+            </p>
+            <p>
+                A full implementation can be found <a href="/backend-questions/build-a-web-crawler/take-home#solution" target="_blank">here↗</a>, but it's out of scope for this question.
             </p>
         </div>
     </li>
