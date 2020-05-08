@@ -151,7 +151,7 @@ During onsite
         </div>
         <div class="answer">
             <h4>Answer</h4>
-            <p>Here</p>
+            <p>One possible metric is the number of pages crawled per second.</p>
         </div>
     </li>
     <li class="question-answer">
@@ -160,7 +160,20 @@ During onsite
         </div>
         <div class="answer">
             <h4>Answer</h4>
-            <p>Here</p>
+            <h5>External factors</h5>
+            <p>
+                <ul>
+                    <li><em>Server latency.</em> For example, if the remote server responds to GET requests with high latency, the number of pages crawled per second is reduced.</li>
+                    <li><em>Connection quality.</em> For example, if the internet connection between the crawler and remote server has low bandwidth and high latency (eg, large distance between data centers), the completion time of GET requests increases, and crawler performance degrades.</li>
+                </ul>
+            </p>
+            <h5>Internal factors</h5>
+            <p>
+                <ul>
+                    <li><em>Level of concurrency.</em> For example, a crawler that blocks on each pending GET request will perform worse than a crawler that can maintain multiple pending GET requests.</li>
+                    <li><em>Rate limit awareness.</em> For example, a crawler that bombards a server with GET requests will perform worse that a crawler that recognizes that servers often rate-limit clients and adapts accordingly.</li>
+                </ul>
+            </p>
         </div>
     </li> 
     <li class="question-answer">
@@ -169,7 +182,13 @@ During onsite
         </div>
         <div class="answer">
             <h4>Answer</h4>
-            <p>Here</p>
+            <p>
+                Act upon the internal factors:
+                <ul>
+                    <li><em>Increase concurrency.</em> Ensure the crawler can maintain multiple pending GET requests. For example, we can allow a configurable number of workers, implemented using multiple threads or coroutines.</li>
+                    <li><em>Respect rate limits.</em> Ensure the crawler's rate of GET requests stays below the rate limit of each server. For example, the crawler could issue GET requests at a variable rate, as it learns each server's rate limit.</li>
+                </ul>
+            </p>
         </div>
     </li>
 </ol>
